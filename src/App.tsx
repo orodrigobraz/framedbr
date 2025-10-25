@@ -18,6 +18,7 @@ useEffect(() => {
       }
       const data: MoviesData = await response.json();
       setMovies(data.filmes);
+      setCurrentMovieIndex(data.filmes.length - 1);
       setLoading(false);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Erro desconhecido');
@@ -78,7 +79,7 @@ useEffect(() => {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>FrameDBR</h1>
+        <h1>Framedbr</h1>
       </header>
 
       <main className="app-main">

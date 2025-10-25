@@ -30,23 +30,24 @@ const MovieGame: React.FC<MovieGameProps> = ({
   const [feedback, setFeedback] = useState<string>('');
   const [suggestions, setSuggestions] = useState<string[]>([]);
   const [displayFrame, setDisplayFrame] = useState<number>(1);
+  const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState<number>(0);
 
   const generateSuggestions = (input: string) => {
-    if (input.length < 2) {
+    if (input.length < 1) {
       setSuggestions([]);
       return;
     }
-  
+
     const inputLower = input.toLowerCase();
-  
-    // ✅ Garante o tipo correto
+
     const suggestionsList: string[] = movies
       .map((m: Movie) => m.titulo_ptbr)
       .filter((titulo: string) => titulo.toLowerCase().includes(inputLower))
-      .slice(0, 5);
-  
+      .slice(0, 10);
+
     setSuggestions(suggestionsList);
-  };  
+  };
   
 
   const frames = [
@@ -112,20 +113,47 @@ const MovieGame: React.FC<MovieGameProps> = ({
     }
   };
 
+  const openModal = (imageIndex: number) => {
+    setCurrentImageIndex(imageIndex);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
+  const nextImage = () => {
+    setCurrentImageIndex((prev) => (prev + 1) % frames.length);
+  };
+
+  const prevImage = () => {
+    setCurrentImageIndex((prev) => (prev - 1 + frames.length) % frames.length);
+  };
+
   useEffect(() => {
     resetGame();
   }, [movie.filme_id]);
 
+  useEffect(() => {
+    const handleKeyPress = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && isModalOpen) {
+        closeModal();
+      }
+    };
+
+    if (isModalOpen) {
+      document.addEventListener('keydown', handleKeyPress);
+    }
+
+    return () => {
+      document.removeEventListener('keydown', handleKeyPress);
+    };
+  }, [isModalOpen]);
+
   return (
     <div className="movie-game">
-      <div className="movie-header">
-        <h2>Filme #{movie.filme_id}</h2>
-        <div className="movie-info">
-          <span className="total-movies">Total: {movies.length} filmes</span>
-        </div>
-      </div>
-
-      <div className="frames-container">
+      {/* LADO ESQUERDO — IMAGEM */}
+      <div className="main-frame">
         {gameState.showAllFrames ? (
           <div className="all-frames">
             {frames.map((frame, index) => (
@@ -133,7 +161,8 @@ const MovieGame: React.FC<MovieGameProps> = ({
                 key={index}
                 src={frame}
                 alt={`Frame ${index + 1}`}
-                className="frame-image"
+                className="frame-image clickable-frame"
+                onClick={() => openModal(index)}
               />
             ))}
           </div>
@@ -142,102 +171,181 @@ const MovieGame: React.FC<MovieGameProps> = ({
             <img
               src={frames[displayFrame - 1]}
               alt={`Frame ${displayFrame}`}
-              className="frame-image main-frame"
+              className="frame-image"
             />
-            <div className="frame-counter">
-              Chute {gameState.attempts} de 6
-            </div>
             <div className="frame-navigation">
-              {frames.map((_, index) => (
-                index + 1 <= gameState.currentFrame && (
+              {frames.map((_, index) =>
+                index + 1 <= gameState.currentFrame ? (
                   <div
                     key={index + 1}
-                    className={`frame-nav-item ${displayFrame === index + 1 ? 'active' : ''}`}
+                    className={`frame-nav-item ${
+                      displayFrame === index + 1 ? "active" : ""
+                    }`}
                     onClick={() => setDisplayFrame(index + 1)}
                   >
                     {index + 1}
                   </div>
-                )
-              ))}
+                ) : null
+              )}
             </div>
           </div>
         )}
       </div>
 
-      {!gameState.showAllFrames && (
-        <div className="guess-section">
-          <div className="input-container">
-            <input
-              type="text"
-              value={gameState.guess}
-              onChange={(e) => {
-                const value = e.target.value;
-                setGameState(prev => ({ ...prev, guess: value }));
-                generateSuggestions(value);
-              }}
-              onKeyPress={handleKeyPress}
-              placeholder="Digite o nome do filme..."
-              className="guess-input"
-            />
-            {suggestions.length > 0 && (
-              <div className="suggestions">
-                {suggestions.map((suggestion, index) => (
-                  <div
-                    key={index}
-                    className="suggestion-item"
-                    onClick={() => {
-                      setGameState(prev => ({ ...prev, guess: suggestion }));
-                      setSuggestions([]);
-                    }}
-                  >
-                    {suggestion}
+      {/* LADO DIREITO — INFO E CONTROLES */}
+      <div className="side-panel">
+        {/* CABEÇALHO DO FILME - NO TOPO */}
+        <div className="movie-header">
+          <h2>Filme #{movie.filme_id}</h2>
+          {/* <span className="total-movies">Total: {movies.length} filmes</span> */}
+        </div>
+
+        {/* SEÇÃO CENTRAL - INPUT E BOTÃO CHUTAR */}
+        <div className="center-section">
+          {!gameState.showAllFrames && (
+            <div className="guess-section">
+              <div className="input-container">
+                <input
+                  type="text"
+                  value={gameState.guess}
+                  onChange={(e) => {
+                    const value = e.target.value;
+                    setGameState((prev) => ({ ...prev, guess: value }));
+                    generateSuggestions(value);
+                  }}
+                  onKeyPress={handleKeyPress}
+                  placeholder="Digite o nome do filme..."
+                  className="guess-input"
+                />
+                {suggestions.length > 0 && (
+                  <div className="suggestions">
+                    {suggestions.map((suggestion, index) => (
+                      <div
+                        key={index}
+                        className="suggestion-item"
+                        onClick={() => {
+                          setGameState((prev) => ({
+                            ...prev,
+                            guess: suggestion,
+                          }));
+                          setSuggestions([]);
+                        }}
+                      >
+                        {suggestion}
+                      </div>
+                    ))}
                   </div>
-                ))}
+                )}
+              </div>
+              <button onClick={handleGuess} className="guess-button">
+                Chutar
+              </button>
+            </div>
+          )}
+
+          <div className="feedback-container">
+            {feedback && (
+              <div
+                className={`feedback ${gameState.isCorrect ? "correct" : "incorrect"}`}
+              >
+                {feedback}
               </div>
             )}
           </div>
-          <button onClick={handleGuess} className="guess-button">
-            Chutar
+
+          {gameState.showAllFrames && (
+            <div className="movie-details">
+              <h3>{movie.titulo_ptbr}</h3>
+              <p>
+                <strong>Título Original:</strong> {movie.titulo_original}
+              </p>
+              <p>
+                <strong>Diretor:</strong> {movie.diretor}
+              </p>
+              <p>
+                <strong>Gênero:</strong> {movie.genero}
+              </p>
+              <p>
+                <strong>Ano:</strong> {movie.ano_lancamento}
+              </p>
+              <p>
+                <strong>Duração:</strong>{" "}
+                {(() => {
+                  const horas = Math.floor(movie.duracao_minutos / 60);
+                  const minutos = movie.duracao_minutos % 60;
+                  if (horas === 0) {
+                    return `${minutos} minuto${minutos !== 1 ? "s" : ""}`;
+                  } else if (minutos === 0) {
+                    return `${horas} hora${horas !== 1 ? "s" : ""}`;
+                  } else {
+                    return `${horas} hora${horas !== 1 ? "s" : ""} e ${minutos} minuto${minutos !== 1 ? "s" : ""}`;
+                  }
+                })()}
+              </p>
+              <p>
+                <strong>Tentativas:</strong> {gameState.attempts}
+              </p>
+            </div>
+          )}
+        </div>
+
+        {/* NAVEGAÇÃO - NO FINAL */}
+        <div className="navigation">
+          <button
+            onClick={onPrevious}
+            disabled={isFirst}
+            className="nav-button prev"
+          >
+            ← Anterior
+          </button>
+          <button
+            onClick={onNext}
+            disabled={isLast}
+            className="nav-button next"
+          >
+            Próximo →
           </button>
         </div>
-      )}
-
-      {feedback && (
-        <div className={`feedback ${gameState.isCorrect ? 'correct' : 'incorrect'}`}>
-          {feedback}
-        </div>
-      )}
-
-      {gameState.showAllFrames && (
-        <div className="movie-details">
-          <h3>{movie.titulo_ptbr}</h3>
-          <p><strong>Título Original:</strong> {movie.titulo_original}</p>
-          <p><strong>Diretor:</strong> {movie.diretor}</p>
-          <p><strong>Gênero:</strong> {movie.genero}</p>
-          <p><strong>Ano:</strong> {movie.ano_lancamento}</p>
-          <p><strong>Duração:</strong> {movie.duracao_minutos} minutos</p>
-          <p><strong>Tentativas:</strong> {gameState.attempts}</p>
-        </div>
-      )}
-
-      <div className="navigation">
-        <button 
-          onClick={onPrevious} 
-          disabled={isFirst}
-          className="nav-button prev"
-        >
-          ← Anterior
-        </button>
-        <button 
-          onClick={onNext} 
-          disabled={isLast}
-          className="nav-button next"
-        >
-          Próximo →
-        </button>
       </div>
+
+      {/* MODAL DO CARROSSEL */}
+      {isModalOpen && (
+        <div className="modal-overlay" onClick={closeModal}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <button className="modal-close" onClick={closeModal}>
+              ×
+            </button>
+            <div className="carousel-container">
+              <button className="carousel-btn prev-btn" onClick={prevImage}>
+                ‹
+              </button>
+              <img
+                src={frames[currentImageIndex]}
+                alt={`Frame ${currentImageIndex + 1}`}
+                className="carousel-image"
+              />
+              <button className="carousel-btn next-btn" onClick={nextImage}>
+                ›
+              </button>
+            </div>
+            <div className="carousel-indicators">
+              {frames.map((_, index) => (
+                <button
+                  key={index}
+                  className={`indicator ${index === currentImageIndex ? 'active' : ''}`}
+                  onClick={() => setCurrentImageIndex(index)}
+                />
+              ))}
+            </div>
+            <div className="carousel-info">
+              <p>Frame {currentImageIndex + 1} de {frames.length}</p>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
+
 };
 
 export default MovieGame;

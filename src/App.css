@@ -1,3 +1,10 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
 .app {
   min-height: 100vh;
   background: linear-gradient(135deg, #56575c 0%, #4a484b 100%);
@@ -39,7 +46,7 @@
 
 .app-main {
   flex: 1;
-  padding: 20px;
+  padding: 5px 20px 20px 20px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
