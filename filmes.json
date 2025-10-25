@@ -1,0 +1,429 @@
+{
+  "filmes": [
+    {
+      "filme_id": 1,
+      "titulo_ptbr": "Eternos",
+      "titulo_original": "Eternals",
+      "diretor": "Chloé Zhao",
+      "genero": "Ação, Aventura, Ficção Científica",
+      "duracao_minutos": 157,
+      "ano_lancamento": 2021,
+      "imagens": {
+        "imagem_frame1": "Frames/eternos--1.jpg",
+        "imagem_frame2": "Frames/eternos--2.jpg",
+        "imagem_frame3": "Frames/eternos--3.jpg",
+        "imagem_frame4": "Frames/eternos--4.jpg",
+        "imagem_frame5": "Frames/eternos--5.jpg",
+        "imagem_frame6": "Frames/eternos--6.jpg"
+      }
+    },
+    {
+      "filme_id": 2,
+      "titulo_ptbr": "007: Sem Tempo Para Morrer",
+      "titulo_original": "No Time to Die",
+      "diretor": "Cary Joji Fukunaga",
+      "genero": "Ação, Aventura, Thriller",
+      "duracao_minutos": 163,
+      "ano_lancamento": 2021,
+      "imagens": {
+        "imagem_frame1": "Frames/007-sem-tempo-para-morrer--1.jpg",
+        "imagem_frame2": "Frames/007-sem-tempo-para-morrer--2.jpg",
+        "imagem_frame3": "Frames/007-sem-tempo-para-morrer--3.jpg",
+        "imagem_frame4": "Frames/007-sem-tempo-para-morrer--4.jpg",
+        "imagem_frame5": "Frames/007-sem-tempo-para-morrer--5.jpg",
+        "imagem_frame6": "Frames/007-sem-tempo-para-morrer--6.jpg"
+      }
+    },
+    {
+      "filme_id": 3,
+      "titulo_ptbr": "Shang-Chi e a Lenda dos Dez Anéis",
+      "titulo_original": "Shang-Chi and the Legend of the Ten Rings",
+      "diretor": "Destin Daniel Cretton",
+      "genero": "Ação, Aventura, Fantasia",
+      "duracao_minutos": 132,
+      "ano_lancamento": 2021,
+      "imagens": {
+        "imagem_frame1": "Frames/shang-chi-e-a-lenda-dos-dez-anéis--1.jpg",
+        "imagem_frame2": "Frames/shang-chi-e-a-lenda-dos-dez-anéis--2.jpg",
+        "imagem_frame3": "Frames/shang-chi-e-a-lenda-dos-dez-anéis--3.jpg",
+        "imagem_frame4": "Frames/shang-chi-e-a-lenda-dos-dez-anéis--4.jpg",
+        "imagem_frame5": "Frames/shang-chi-e-a-lenda-dos-dez-anéis--5.jpg",
+        "imagem_frame6": "Frames/shang-chi-e-a-lenda-dos-dez-anéis--6.jpg"
+      }
+    },
+    {
+      "filme_id": 4,
+      "titulo_ptbr": "Venom: Tempo de Carnificina",
+      "titulo_original": "Venom: Let There Be Carnage",
+      "diretor": "Andy Serkis",
+      "genero": "Ação, Ficção Científica, Terror",
+      "duracao_minutos": 97,
+      "ano_lancamento": 2021,
+      "imagens": {
+        "imagem_frame1": "Frames/venom-tempo-de-carnificina--1.jpg",
+        "imagem_frame2": "Frames/venom-tempo-de-carnificina--2.jpg",
+        "imagem_frame3": "Frames/venom-tempo-de-carnificina--3.jpg",
+        "imagem_frame4": "Frames/venom-tempo-de-carnificina--4.jpg",
+        "imagem_frame5": "Frames/venom-tempo-de-carnificina--5.jpg",
+        "imagem_frame6": "Frames/venom-tempo-de-carnificina--6.jpg"
+      }
+    },
+    {
+      "filme_id": 5,
+      "titulo_ptbr": "Homem-Aranha: Sem Volta Para Casa",
+      "titulo_original": "Spider-Man: No Way Home",
+      "diretor": "Jon Watts",
+      "genero": "Ação, Aventura, Ficção Científica",
+      "duracao_minutos": 148,
+      "ano_lancamento": 2021,
+      "imagens": {
+        "imagem_frame1": "Frames/homem-aranha-sem-volta-para-casa--1.jpg",
+        "imagem_frame2": "Frames/homem-aranha-sem-volta-para-casa--2.jpg",
+        "imagem_frame3": "Frames/homem-aranha-sem-volta-para-casa--3.jpg",
+        "imagem_frame4": "Frames/homem-aranha-sem-volta-para-casa--4.jpg",
+        "imagem_frame5": "Frames/homem-aranha-sem-volta-para-casa--5.jpg",
+        "imagem_frame6": "Frames/homem-aranha-sem-volta-para-casa--6.jpg"
+      }
+    },
+    {
+      "filme_id": 6,
+      "titulo_ptbr": "007: Contra Spectre",
+      "titulo_original": "Spectre",
+      "diretor": "Sam Mendes",
+      "genero": "Ação, Aventura, Thriller",
+      "duracao_minutos": 148,
+      "ano_lancamento": 2015,
+      "imagens": {
+        "imagem_frame1": "Frames/007-contra-spectre--1.jpg",
+        "imagem_frame2": "Frames/007-contra-spectre--2.jpg",
+        "imagem_frame3": "Frames/007-contra-spectre--3.jpg",
+        "imagem_frame4": "Frames/007-contra-spectre--4.jpg",
+        "imagem_frame5": "Frames/007-contra-spectre--5.jpg",
+        "imagem_frame6": "Frames/007-contra-spectre--6.jpg"
+      }
+    },
+    {
+      "filme_id": 7,
+      "titulo_ptbr": "8 Mile - Rua das Ilusões",
+      "titulo_original": "8 Mile",
+      "diretor": "Curtis Hanson",
+      "genero": "Drama, Música",
+      "duracao_minutos": 110,
+      "ano_lancamento": 2002,
+      "imagens": {
+        "imagem_frame1": "Frames/8-mile-rua-das-ilusoes--1.jpg",
+        "imagem_frame2": "Frames/8-mile-rua-das-ilusoes--2.jpg",
+        "imagem_frame3": "Frames/8-mile-rua-das-ilusoes--3.jpg",
+        "imagem_frame4": "Frames/8-mile-rua-das-ilusoes--4.jpg",
+        "imagem_frame5": "Frames/8-mile-rua-das-ilusoes--5.jpg",
+        "imagem_frame6": "Frames/8-mile-rua-das-ilusoes--6.jpg"
+      }
+    },
+    {
+      "filme_id": 8,
+      "titulo_ptbr": "500 Dias com Ela",
+      "titulo_original": "500 Days of Summer",
+      "diretor": "Marc Webb",
+      "genero": "Comédia, Drama, Romance",
+      "duracao_minutos": 95,
+      "ano_lancamento": 2009,
+      "imagens": {
+        "imagem_frame1": "Frames/500-dias-com-ela--1.jpg",
+        "imagem_frame2": "Frames/500-dias-com-ela--2.jpg",
+        "imagem_frame3": "Frames/500-dias-com-ela--3.jpg",
+        "imagem_frame4": "Frames/500-dias-com-ela--4.jpg",
+        "imagem_frame5": "Frames/500-dias-com-ela--5.jpg",
+        "imagem_frame6": "Frames/500-dias-com-ela--6.jpg"
+      }
+    },
+    {
+      "filme_id": 9,
+      "titulo_ptbr": "Bacurau",
+      "titulo_original": "Bacurau",
+      "diretor": "Kleber Mendonça Filho, Juliano Dornelles",
+      "genero": "Drama, Thriller, Western",
+      "duracao_minutos": 131,
+      "ano_lancamento": 2019,
+      "imagens": {
+        "imagem_frame1": "Frames/bacurau--1.jpg",
+        "imagem_frame2": "Frames/bacurau--2.jpg",
+        "imagem_frame3": "Frames/bacurau--3.jpg",
+        "imagem_frame4": "Frames/bacurau--4.jpg",
+        "imagem_frame5": "Frames/bacurau--5.jpg",
+        "imagem_frame6": "Frames/bacurau--6.jpg"
+      }
+    },
+    {
+      "filme_id": 10,
+      "titulo_ptbr": "Cheech e Chong: Queimando Tudo",
+      "titulo_original": "Up in Smoke",
+      "diretor": "Lou Adler",
+      "genero": "Comédia",
+      "duracao_minutos": 86,
+      "ano_lancamento": 1978,
+      "imagens": {
+        "imagem_frame1": "Frames/cheech-e-chong-queimando-tudo--1.jpg",
+        "imagem_frame2": "Frames/cheech-e-chong-queimando-tudo--2.jpg",
+        "imagem_frame3": "Frames/cheech-e-chong-queimando-tudo--3.jpg",
+        "imagem_frame4": "Frames/cheech-e-chong-queimando-tudo--4.jpg",
+        "imagem_frame5": "Frames/cheech-e-chong-queimando-tudo--5.jpg",
+        "imagem_frame6": "Frames/cheech-e-chong-queimando-tudo--6.jpg"
+      }
+    },
+    {
+      "filme_id": 11,
+      "titulo_ptbr": "Os Simpsons: O Filme",
+      "titulo_original": "The Simpsons Movie",
+      "diretor": "David Silverman",
+      "genero": "Animação, Comédia",
+      "duracao_minutos": 87,
+      "ano_lancamento": 2007,
+      "imagens": {
+        "imagem_frame1": "Frames/os-simpsons-o-filme--1.jpg",
+        "imagem_frame2": "Frames/os-simpsons-o-filme--2.jpg",
+        "imagem_frame3": "Frames/os-simpsons-o-filme--3.jpg",
+        "imagem_frame4": "Frames/os-simpsons-o-filme--4.jpg",
+        "imagem_frame5": "Frames/os-simpsons-o-filme--5.jpg",
+        "imagem_frame6": "Frames/os-simpsons-o-filme--6.jpg"
+      }
+    },
+    {
+      "filme_id": 12,
+      "titulo_ptbr": "1917",
+      "titulo_original": "1917",
+      "diretor": "Sam Mendes",
+      "genero": "Ação, Aventura, Guerra",
+      "duracao_minutos": 119,
+      "ano_lancamento": 2019,
+      "imagens": {
+        "imagem_frame1": "Frames/1917--1.jpg",
+        "imagem_frame2": "Frames/1917--2.jpg",
+        "imagem_frame3": "Frames/1917--3.jpg",
+        "imagem_frame4": "Frames/1917--4.jpg",
+        "imagem_frame5": "Frames/1917--5.jpg",
+        "imagem_frame6": "Frames/1917--6.jpg"
+      }
+    },
+    {
+      "filme_id": 13,
+      "titulo_ptbr": "A 5ª Onda",
+      "titulo_original": "The 5th Wave",
+      "diretor": "J Blakeson",
+      "genero": "Ação, Aventura, Ficção Científica",
+      "duracao_minutos": 104,
+      "ano_lancamento": 2016,
+      "imagens": {
+        "imagem_frame1": "Frames/a-5-a-onda--1.jpg",
+        "imagem_frame2": "Frames/a-5-a-onda--2.jpg",
+        "imagem_frame3": "Frames/a-5-a-onda--3.jpg",
+        "imagem_frame4": "Frames/a-5-a-onda--4.jpg",
+        "imagem_frame5": "Frames/a-5-a-onda--5.jpg",
+        "imagem_frame6": "Frames/a-5-a-onda--6.jpg"
+      }
+    },
+    {
+      "filme_id": 14,
+      "titulo_ptbr": "A Cabana",
+      "titulo_original": "The Shack",
+      "diretor": "Stuart Hazeldine",
+      "genero": "Drama, Fantasia, Suspense",
+      "duracao_minutos": 132,
+      "ano_lancamento": 2017,
+      "imagens": {
+        "imagem_frame1": "Frames/a-cabana--1.jpg",
+        "imagem_frame2": "Frames/a-cabana--2.jpg",
+        "imagem_frame3": "Frames/a-cabana--3.jpg",
+        "imagem_frame4": "Frames/a-cabana--4.jpg",
+        "imagem_frame5": "Frames/a-cabana--5.jpg",
+        "imagem_frame6": "Frames/a-cabana--6.jpg"
+      }
+    },
+    {
+      "filme_id": 15,
+      "titulo_ptbr": "A Colina Escarlate",
+      "titulo_original": "Crimson Peak",
+      "diretor": "Guillermo del Toro",
+      "genero": "Terror, Romance, Suspense",
+      "duracao_minutos": 119,
+      "ano_lancamento": 2015,
+      "imagens": {
+        "imagem_frame1": "Frames/a-colina-escarlate--1.jpg",
+        "imagem_frame2": "Frames/a-colina-escarlate--2.jpg",
+        "imagem_frame3": "Frames/a-colina-escarlate--3.jpg",
+        "imagem_frame4": "Frames/a-colina-escarlate--4.jpg",
+        "imagem_frame5": "Frames/a-colina-escarlate--5.jpg",
+        "imagem_frame6": "Frames/a-colina-escarlate--6.jpg"
+      }
+    },
+    {
+      "filme_id": 16,
+      "titulo_ptbr": "A Era do Gelo: O Big Bang",
+      "titulo_original": "Ice Age: Collision Course",
+      "diretor": "Mike Thurmeier",
+      "genero": "Animação, Aventura, Comédia",
+      "duracao_minutos": 100,
+      "ano_lancamento": 2016,
+      "imagens": {
+        "imagem_frame1": "Frames/a-era-do-gelo-o-big-bang--1.jpg",
+        "imagem_frame2": "Frames/a-era-do-gelo-o-big-bang--2.jpg",
+        "imagem_frame3": "Frames/a-era-do-gelo-o-big-bang--3.jpg",
+        "imagem_frame4": "Frames/a-era-do-gelo-o-big-bang--4.jpg",
+        "imagem_frame5": "Frames/a-era-do-gelo-o-big-bang--5.jpg",
+        "imagem_frame6": "Frames/a-era-do-gelo-o-big-bang--6.jpg"
+      }
+    },
+    {
+      "filme_id": 17,
+      "titulo_ptbr": "A Forma da Água",
+      "titulo_original": "The Shape of Water",
+      "diretor": "Guillermo del Toro",
+      "genero": "Drama, Fantasia, Romance",
+      "duracao_minutos": 123,
+      "ano_lancamento": 2017,
+      "imagens": {
+        "imagem_frame1": "Frames/a-forma-da-agua--1.jpg",
+        "imagem_frame2": "Frames/a-forma-da-agua--2.jpg",
+        "imagem_frame3": "Frames/a-forma-da-agua--3.jpg",
+        "imagem_frame4": "Frames/a-forma-da-agua--4.jpg",
+        "imagem_frame5": "Frames/a-forma-da-agua--5.jpg",
+        "imagem_frame6": "Frames/a-forma-da-agua--6.jpg"
+      }
+    },
+    {
+      "filme_id": 18,
+      "titulo_ptbr": "A Grande Aposta",
+      "titulo_original": "The Big Short",
+      "diretor": "Adam McKay",
+      "genero": "Biografia, Comédia, Drama",
+      "duracao_minutos": 130,
+      "ano_lancamento": 2015,
+      "imagens": {
+        "imagem_frame1": "Frames/a-grande-aposta--1.jpg",
+        "imagem_frame2": "Frames/a-grande-aposta--2.jpg",
+        "imagem_frame3": "Frames/a-grande-aposta--3.jpg",
+        "imagem_frame4": "Frames/a-grande-aposta--4.jpg",
+        "imagem_frame5": "Frames/a-grande-aposta--5.jpg",
+        "imagem_frame6": "Frames/a-grande-aposta--6.jpg"
+      }
+    },
+    {
+      "filme_id": 19,
+      "titulo_ptbr": "A Lista de Schindler",
+      "titulo_original": "Schindler's List",
+      "diretor": "Steven Spielberg",
+      "genero": "Biografia, Drama, História",
+      "duracao_minutos": 195,
+      "ano_lancamento": 1993,
+      "imagens": {
+        "imagem_frame1": "Frames/a-lista-de-schindler--1.jpg",
+        "imagem_frame2": "Frames/a-lista-de-schindler--2.jpg",
+        "imagem_frame3": "Frames/a-lista-de-schindler--3.jpg",
+        "imagem_frame4": "Frames/a-lista-de-schindler--4.jpg",
+        "imagem_frame5": "Frames/a-lista-de-schindler--5.jpg",
+        "imagem_frame6": "Frames/a-lista-de-schindler--6.jpg"
+      }
+    },
+    {
+      "filme_id": 20,
+      "titulo_ptbr": "A Grande Muralha",
+      "titulo_original": "The Great Wall",
+      "diretor": "Zhang Yimou",
+      "genero": "Ação, Aventura, Fantasia",
+      "duracao_minutos": 103,
+      "ano_lancamento": 2016,
+      "imagens": {
+        "imagem_frame1": "Frames/a-grande-muralha--1.jpg",
+        "imagem_frame2": "Frames/a-grande-muralha--2.jpg",
+        "imagem_frame3": "Frames/a-grande-muralha--3.jpg",
+        "imagem_frame4": "Frames/a-grande-muralha--4.jpg",
+        "imagem_frame5": "Frames/a-grande-muralha--5.jpg",
+        "imagem_frame6": "Frames/a-grande-muralha--6.jpg"
+      }
+    },
+    {
+      "filme_id": 21,
+      "titulo_ptbr": "A Lenda de Tarzan",
+      "titulo_original": "The Legend of Tarzan",
+      "diretor": "David Yates",
+      "genero": "Ação, Aventura",
+      "duracao_minutos": 110,
+      "ano_lancamento": 2016,
+      "imagens": {
+        "imagem_frame1": "Frames/a-lenda-de-tarzan--1.jpg",
+        "imagem_frame2": "Frames/a-lenda-de-tarzan--2.jpg",
+        "imagem_frame3": "Frames/a-lenda-de-tarzan--3.jpg",
+        "imagem_frame4": "Frames/a-lenda-de-tarzan--4.jpg",
+        "imagem_frame5": "Frames/a-lenda-de-tarzan--5.jpg",
+        "imagem_frame6": "Frames/a-lenda-de-tarzan--6.jpg"
+      }
+    },
+    {
+      "filme_id": 22,
+      "titulo_ptbr": "A Rede Social",
+      "titulo_original": "The Social Network",
+      "diretor": "David Fincher",
+      "genero": "Biografia, Drama",
+      "duracao_minutos": 120,
+      "ano_lancamento": 2010,
+      "imagens": {
+        "imagem_frame1": "Frames/a-rede-social--1.jpg",
+        "imagem_frame2": "Frames/a-rede-social--2.jpg",
+        "imagem_frame3": "Frames/a-rede-social--3.jpg",
+        "imagem_frame4": "Frames/a-rede-social--4.jpg",
+        "imagem_frame5": "Frames/a-rede-social--5.jpg",
+        "imagem_frame6": "Frames/a-rede-social--6.jpg"
+      }
+    },
+    {
+      "filme_id": 23,
+      "titulo_ptbr": "A Teoria de Tudo",
+      "titulo_original": "The Theory of Everything",
+      "diretor": "James Marsh",
+      "genero": "Biografia, Drama, Romance",
+      "duracao_minutos": 123,
+      "ano_lancamento": 2014,
+      "imagens": {
+        "imagem_frame1": "Frames/a-teoria-de-tudo--1.jpg",
+        "imagem_frame2": "Frames/a-teoria-de-tudo--2.jpg",
+        "imagem_frame3": "Frames/a-teoria-de-tudo--3.jpg",
+        "imagem_frame4": "Frames/a-teoria-de-tudo--4.jpg",
+        "imagem_frame5": "Frames/a-teoria-de-tudo--5.jpg",
+        "imagem_frame6": "Frames/a-teoria-de-tudo--6.jpg"
+      }
+    },
+    {
+      "filme_id": 24,
+      "titulo_ptbr": "Pixels",
+      "titulo_original": "Pixels",
+      "diretor": "Chris Columbus",
+      "genero": "Ação, Comédia, Fantasia",
+      "duracao_minutos": 105,
+      "ano_lancamento": 2015,
+      "imagens": {
+        "imagem_frame1": "Frames/pixels--1.jpg",
+        "imagem_frame2": "Frames/pixels--2.jpg",
+        "imagem_frame3": "Frames/pixels--3.jpg",
+        "imagem_frame4": "Frames/pixels--4.jpg",
+        "imagem_frame5": "Frames/pixels--5.jpg",
+        "imagem_frame6": "Frames/pixels--6.jpg"
+      }
+    },
+    {
+      "filme_id": 25,
+      "titulo_ptbr": "Se Beber, Não Case!",
+      "titulo_original": "The Hangover",
+      "diretor": "Todd Phillips",
+      "genero": "Comédia",
+      "duracao_minutos": 100,
+      "ano_lancamento": 2009,
+      "imagens": {
+        "imagem_frame1": "Frames/se-beber-nao-case--1.jpg",
+        "imagem_frame2": "Frames/se-beber-nao-case--2.jpg",
+        "imagem_frame3": "Frames/se-beber-nao-case--3.jpg",
+        "imagem_frame4": "Frames/se-beber-nao-case--4.jpg",
+        "imagem_frame5": "Frames/se-beber-nao-case--5.jpg",
+        "imagem_frame6": "Frames/se-beber-nao-case--6.jpg"
+      }
+    }
+  ]
+}

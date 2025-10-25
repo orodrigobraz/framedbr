@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/framedbr/static/css/main.2d107870.css",
+    "main.js": "/framedbr/static/js/main.cda99dd7.js",
+    "index.html": "/framedbr/index.html",
+    "main.2d107870.css.map": "/framedbr/static/css/main.2d107870.css.map",
+    "main.cda99dd7.js.map": "/framedbr/static/js/main.cda99dd7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d107870.css",
+    "static/js/main.cda99dd7.js"
+  ]
+}
