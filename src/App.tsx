@@ -9,24 +9,25 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  useEffect(() => {
-    const loadMovies = async () => {
-      try {
-        const response = await fetch('/filmes.json');
-        if (!response.ok) {
-          throw new Error('Erro ao carregar filmes');
-        }
-        const data: MoviesData = await response.json();
-        setMovies(data.filmes);
-        setLoading(false);
-      } catch (err) {
-        setError(err instanceof Error ? err.message : 'Erro desconhecido');
-        setLoading(false);
+useEffect(() => {
+  const loadMovies = async () => {
+    try {
+      const response = await fetch(process.env.PUBLIC_URL + '/filmes.json');
+      if (!response.ok) {
+        throw new Error('Erro ao carregar filmes');
       }
-    };
+      const data: MoviesData = await response.json();
+      setMovies(data.filmes);
+      setLoading(false);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Erro desconhecido');
+      setLoading(false);
+    }
+  };
 
-    loadMovies();
-  }, []);
+  loadMovies();
+}, []);
+
 
   const handleNext = () => {
     if (currentMovieIndex < movies.length - 1) {
