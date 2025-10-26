@@ -106,10 +106,22 @@ const MoviePage: React.FC = () => {
 
   const currentIndex = movies.findIndex(m => m.filme_id === parseInt(id));
 
+  const goToLastMovie = () => {
+    const lastMovie = movies[movies.length - 1];
+    navigate(`/${lastMovie.filme_id}`);
+  };
+
   return (
     <div className="app">
       <header className="app-header">
-        <h1>Framedbr</h1>
+        <h1>
+          <button 
+            onClick={goToLastMovie}
+            className="title-link"
+          >
+            Framedbr
+          </button>
+        </h1>
       </header>
 
       <main className="app-main">

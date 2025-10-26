@@ -28,6 +28,18 @@ html, body {
   font-weight: bold;
 }
 
+.title-link {
+  background: none;
+  border: none;
+  color: white;
+  font-size: inherit;
+  font-weight: inherit;
+  text-shadow: inherit;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
 .app-header p {
   color: rgba(255, 255, 255, 0.9);
   margin: 0 0 15px 0;

@@ -1682,6 +1682,40 @@
         "imagem_frame5": "/framedbr/Frames/id-100--5.jpg",
         "imagem_frame6": "/framedbr/Frames/id-100--6.jpg"
       }
+    },
+    {
+      "filme_id": 102,
+      "titulo_ptbr": "Um Lugar Silencioso",
+      "titulo_original": "A Quiet Place",
+      "diretor": "Jon Krasinski",
+      "genero": "Terror, Ficção Científica",
+      "duracao_minutos": 90,
+      "ano_lancamento": 2018,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-102--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-102--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-102--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-102--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-102--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-102--6.jpg"
+      }
+    },
+    {
+      "filme_id": 103,
+      "titulo_ptbr": "Na Natureza Selvagem",
+      "titulo_original": "Into The Wild",
+      "diretor": "Sean Penn",
+      "genero": "Aventura, Biografia, Drama",
+      "duracao_minutos": 148,
+      "ano_lancamento": 2007,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-103--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-103--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-103--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-103--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-103--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-103--6.jpg"
+      }
     }
   ]
 }
