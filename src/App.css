@@ -74,6 +74,10 @@ html, body {
 
 
 @media (max-width: 768px) {
+  html, body {
+    overflow: visible;
+  }
+  
   .app-header h1 {
     font-size: 2rem;
   }

@@ -41,12 +41,50 @@ const MovieGame: React.FC<MovieGameProps> = ({
 
     const inputLower = input.toLowerCase();
 
-    const suggestionsList: string[] = movies
-      .map((m: Movie) => m.titulo_ptbr)
-      .filter((titulo: string) => titulo.toLowerCase().includes(inputLower))
+    // Criar lista de sugestões com informações completas
+    const suggestionsWithInfo = movies
+      .map((m: Movie) => ({
+        titulo: m.titulo_ptbr,
+        ano: m.ano_lancamento,
+        original: m.titulo_original
+      }))
+      .filter((movie) => 
+        movie.titulo.toLowerCase().includes(inputLower) ||
+        movie.original.toLowerCase().includes(inputLower)
+      );
+
+    // Agrupar por título para identificar duplicatas
+    const groupedByTitle = suggestionsWithInfo.reduce((acc, movie) => {
+      if (!acc[movie.titulo]) {
+        acc[movie.titulo] = [];
+      }
+      acc[movie.titulo].push(movie);
+      return acc;
+    }, {} as Record<string, typeof suggestionsWithInfo>);
+
+    // Criar lista final com anos para duplicatas
+    const finalSuggestions: string[] = [];
+    
+    Object.keys(groupedByTitle).forEach(titulo => {
+      const moviesWithSameTitle = groupedByTitle[titulo];
+      
+      if (moviesWithSameTitle.length === 1) {
+        // Título único, adicionar sem ano
+        finalSuggestions.push(titulo);
+      } else {
+        // Títulos duplicados, adicionar com ano
+        moviesWithSameTitle.forEach(movie => {
+          finalSuggestions.push(`${titulo} (${movie.ano})`);
+        });
+      }
+    });
+
+    // Ordenar alfabeticamente e limitar a 10
+    const sortedSuggestions = finalSuggestions
+      .sort((a, b) => a.localeCompare(b, 'pt-BR'))
       .slice(0, 10);
 
-    setSuggestions(suggestionsList);
+    setSuggestions(sortedSuggestions);
   };
   
 
@@ -64,7 +102,18 @@ const MovieGame: React.FC<MovieGameProps> = ({
     const normalizedTitle = movie.titulo_ptbr.toLowerCase();
     const normalizedOriginal = movie.titulo_original.toLowerCase();
 
-    const isCorrectGuess = normalizedGuess === normalizedTitle || normalizedGuess === normalizedOriginal
+    // Verificar se o palpite corresponde ao título com ou sem ano
+    const guessWithoutYear = normalizedGuess.replace(/\s*\(\d{4}\)\s*$/, '');
+    const titleWithYear = `${normalizedTitle} (${movie.ano_lancamento})`;
+    const originalWithYear = `${normalizedOriginal} (${movie.ano_lancamento})`;
+
+    const isCorrectGuess = 
+      normalizedGuess === normalizedTitle || 
+      normalizedGuess === normalizedOriginal ||
+      normalizedGuess === titleWithYear ||
+      normalizedGuess === originalWithYear ||
+      guessWithoutYear === normalizedTitle ||
+      guessWithoutYear === normalizedOriginal;
     
     if (isCorrectGuess) {
       setGameState(prev => ({

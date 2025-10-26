@@ -84,7 +84,7 @@
 
 
 .main-frame {
-  flex: 0 0 70%;
+  flex: 0 0 63%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -322,7 +322,23 @@
 
 @media (max-width: 768px) {
   .movie-game {
+    flex-direction: column;
     padding: 15px;
+    gap: 20px;
+  }
+  
+  .main-frame {
+    flex: none;
+    order: 1;
+    width: 100%;
+  }
+  
+  .side-panel {
+    flex: none;
+    order: 2;
+    width: 100%;
+    height: auto;
+    min-height: auto;
   }
   
   .all-frames {

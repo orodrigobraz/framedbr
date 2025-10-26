@@ -1,44 +1,54 @@
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, useParams, useNavigate } from 'react-router-dom';
 import MovieGame from './components/MovieGame';
 import { Movie, MoviesData } from './types/Movie';
 import './App.css';
 
-function App() {
+const MoviePage: React.FC = () => {
+  const { id } = useParams<{ id: string }>();
+  const navigate = useNavigate();
   const [movies, setMovies] = useState<Movie[]>([]);
-  const [currentMovieIndex, setCurrentMovieIndex] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-useEffect(() => {
-  const loadMovies = async () => {
-    try {
-      const response = await fetch(process.env.PUBLIC_URL + '/filmes.json');
-      if (!response.ok) {
-        throw new Error('Erro ao carregar filmes');
+  useEffect(() => {
+    const loadMovies = async () => {
+      try {
+        const response = await fetch(process.env.PUBLIC_URL + '/filmes.json');
+        if (!response.ok) {
+          throw new Error('Erro ao carregar filmes');
+        }
+        const data: MoviesData = await response.json();
+        setMovies(data.filmes);
+        setLoading(false);
+      } catch (err) {
+        setError(err instanceof Error ? err.message : 'Erro desconhecido');
+        setLoading(false);
       }
-      const data: MoviesData = await response.json();
-      setMovies(data.filmes);
-      setCurrentMovieIndex(data.filmes.length - 1);
-      setLoading(false);
-    } catch (err) {
-      setError(err instanceof Error ? err.message : 'Erro desconhecido');
-      setLoading(false);
-    }
-  };
+    };
 
-  loadMovies();
-}, []);
-
+    loadMovies();
+  }, []);
 
   const handleNext = () => {
-    if (currentMovieIndex < movies.length - 1) {
-      setCurrentMovieIndex(prev => prev + 1);
+    if (id) {
+      const currentId = parseInt(id);
+      const currentIndex = movies.findIndex(m => m.filme_id === currentId);
+      if (currentIndex < movies.length - 1) {
+        const nextMovie = movies[currentIndex + 1];
+        navigate(`/${nextMovie.filme_id}`);
+      }
     }
   };
 
   const handlePrevious = () => {
-    if (currentMovieIndex > 0) {
-      setCurrentMovieIndex(prev => prev - 1);
+    if (id) {
+      const currentId = parseInt(id);
+      const currentIndex = movies.findIndex(m => m.filme_id === currentId);
+      if (currentIndex > 0) {
+        const prevMovie = movies[currentIndex - 1];
+        navigate(`/${prevMovie.filme_id}`);
+      }
     }
   };
 
@@ -74,7 +84,27 @@ useEffect(() => {
     );
   }
 
-  const currentMovie = movies[currentMovieIndex];
+  if (!id) {
+    // Redirecionar para o último filme se não houver ID na URL
+    const lastMovie = movies[movies.length - 1];
+    navigate(`/${lastMovie.filme_id}`, { replace: true });
+    return null;
+  }
+
+  const currentMovie = movies.find(m => m.filme_id === parseInt(id));
+  
+  if (!currentMovie) {
+    return (
+      <div className="app">
+        <div className="error">
+          <h2>Filme não encontrado</h2>
+          <p>O filme com ID {id} não existe.</p>
+        </div>
+      </div>
+    );
+  }
+
+  const currentIndex = movies.findIndex(m => m.filme_id === parseInt(id));
 
   return (
     <div className="app">
@@ -88,12 +118,26 @@ useEffect(() => {
           movies={movies}
           onNext={handleNext}
           onPrevious={handlePrevious}
-          isFirst={currentMovieIndex === 0}
-          isLast={currentMovieIndex === movies.length - 1}
+          isFirst={currentIndex === 0}
+          isLast={currentIndex === movies.length - 1}
         />
       </main>
-
     </div>
+  );
+};
+
+function App() {
+  // Detectar se está em produção (GitHub Pages) ou desenvolvimento
+  const isProduction = process.env.NODE_ENV === 'production';
+  const basename = isProduction ? '/framedbr' : '/';
+
+  return (
+    <Router basename={basename}>
+      <Routes>
+        <Route path="/" element={<MoviePage />} />
+        <Route path="/:id" element={<MoviePage />} />
+      </Routes>
+    </Router>
   );
 }
 
