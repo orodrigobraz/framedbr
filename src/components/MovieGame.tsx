@@ -115,6 +115,10 @@ const MovieGame: React.FC<MovieGameProps> = ({
       guessWithoutYear === normalizedTitle ||
       guessWithoutYear === normalizedOriginal;
     
+    // Limpar o input após qualquer chute
+    setGameState(prev => ({ ...prev, guess: '' }));
+    setSuggestions([]);
+    
     if (isCorrectGuess) {
       setGameState(prev => ({
         ...prev,
