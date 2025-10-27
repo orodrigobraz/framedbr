@@ -70,6 +70,12 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
+/* Ajuste específico para imagens .jpeg */
+.frame-image[src$=".jpeg"] {
+  max-height: 95vh;
+  transform: scale(1.1);
+}
+
 .clickable-frame {
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -432,6 +438,12 @@
   max-height: 80vh;
   object-fit: contain;
   border-radius: 8px;
+}
+
+/* Ajuste específico para imagens .jpeg no carrossel */
+.carousel-image[src$=".jpeg"] {
+  max-height: 90vh;
+  transform: scale(1.1);
 }
 
 .carousel-btn {

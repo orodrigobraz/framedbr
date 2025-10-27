@@ -10,6 +10,7 @@ const MoviePage: React.FC = () => {
   const [movies, setMovies] = useState<Movie[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [isNavigating, setIsNavigating] = useState<boolean>(false);
 
   useEffect(() => {
     const loadMovies = async () => {
@@ -31,24 +32,32 @@ const MoviePage: React.FC = () => {
   }, []);
 
   const handleNext = () => {
+    if (isNavigating) return; // Evitar duplo clique
+    
     if (id) {
+      setIsNavigating(true);
       const currentId = parseInt(id);
       const currentIndex = movies.findIndex(m => m.filme_id === currentId);
       if (currentIndex < movies.length - 1) {
         const nextMovie = movies[currentIndex + 1];
         navigate(`/${nextMovie.filme_id}`);
       }
+      setTimeout(() => setIsNavigating(false), 300);
     }
   };
 
   const handlePrevious = () => {
+    if (isNavigating) return; // Evitar duplo clique
+    
     if (id) {
+      setIsNavigating(true);
       const currentId = parseInt(id);
       const currentIndex = movies.findIndex(m => m.filme_id === currentId);
       if (currentIndex > 0) {
         const prevMovie = movies[currentIndex - 1];
         navigate(`/${prevMovie.filme_id}`);
       }
+      setTimeout(() => setIsNavigating(false), 300);
     }
   };
 
@@ -84,16 +93,22 @@ const MoviePage: React.FC = () => {
     );
   }
 
-  if (!id) {
-    // Redirecionar para o último filme se não houver ID na URL
+  // Verificar se o ID é válido (número) ou se deve redirecionar
+  const isValidId = id && !isNaN(parseInt(id));
+  
+  // Em desenvolvimento, se o ID for "framedbr", tratar como se não houvesse ID
+  const shouldRedirect = !id || !isValidId || (process.env.NODE_ENV !== 'production' && id === 'framedbr');
+  
+  // Redirecionar para o último filme se não houver ID válido na URL
+  if (shouldRedirect && movies.length > 0) {
     const lastMovie = movies[movies.length - 1];
     navigate(`/${lastMovie.filme_id}`, { replace: true });
     return null;
   }
 
-  const currentMovie = movies.find(m => m.filme_id === parseInt(id));
+  const currentMovie = movies.find(m => m.filme_id === parseInt(id || '0'));
   
-  if (!currentMovie) {
+  if (!currentMovie && isValidId) {
     return (
       <div className="app">
         <div className="error">
@@ -104,12 +119,17 @@ const MoviePage: React.FC = () => {
     );
   }
 
-  const currentIndex = movies.findIndex(m => m.filme_id === parseInt(id));
+  const currentIndex = movies.findIndex(m => m.filme_id === parseInt(id || '0'));
 
   const goToLastMovie = () => {
     const lastMovie = movies[movies.length - 1];
     navigate(`/${lastMovie.filme_id}`);
   };
+
+  // Se não há filme atual (caso de redirecionamento), não renderizar nada ainda
+  if (!currentMovie) {
+    return null;
+  }
 
   return (
     <div className="app">

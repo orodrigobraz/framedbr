@@ -1716,6 +1716,975 @@
         "imagem_frame5": "/framedbr/Frames/id-103--5.jpg",
         "imagem_frame6": "/framedbr/Frames/id-103--6.jpg"
       }
+    },
+    {
+      "filme_id": 104,
+      "titulo_ptbr": "Central do Brasil",
+      "titulo_original": "Central do Brasil",
+      "diretor": "Walter Salles",
+      "genero": "Drama",
+      "duracao_minutos": 115,
+      "ano_lancamento": 1998,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-104--1.jpeg",
+        "imagem_frame2": "/framedbr/Frames/id-104--2.jpeg",
+        "imagem_frame3": "/framedbr/Frames/id-104--3.jpeg",
+        "imagem_frame4": "/framedbr/Frames/id-104--4.jpeg",
+        "imagem_frame5": "/framedbr/Frames/id-104--5.jpeg",
+        "imagem_frame6": "/framedbr/Frames/id-104--6.jpeg"
+      }
+    },
+    {
+      "filme_id": 105,
+      "titulo_ptbr": "Quarteto Fantástico: Primeiros Passos",
+      "titulo_original": "The Fantastic Four: First Steps",
+      "diretor": "Matt Shakman",
+      "genero": "Drama",
+      "duracao_minutos": 115,
+      "ano_lancamento": 2025,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-105--1.jpeg",
+        "imagem_frame2": "/framedbr/Frames/id-105--2.jpeg",
+        "imagem_frame3": "/framedbr/Frames/id-105--3.jpeg",
+        "imagem_frame4": "/framedbr/Frames/id-105--4.jpeg",
+        "imagem_frame5": "/framedbr/Frames/id-105--5.jpeg",
+        "imagem_frame6": "/framedbr/Frames/id-105--6.jpeg"
+      }
+    },
+    {
+      "filme_id": 106,
+      "titulo_ptbr": "Venom",
+      "titulo_original": "Venom",
+      "diretor": "Ruben Fleischer",
+      "genero": "Ação, Ficção Científica",
+      "duracao_minutos": 112,
+      "ano_lancamento": 2018,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-106--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-106--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-106--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-106--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-106--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-106--6.jpg"
+      }
+    },
+    {
+      "filme_id": 107,
+      "titulo_ptbr": "Argentina, 1985",
+      "titulo_original": "Argentina, 1985",
+      "diretor": "Santiago Mitre",
+      "genero": "Thriller, Drama",
+      "duracao_minutos": 140,
+      "ano_lancamento": 2022,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-107--1.jpeg",
+        "imagem_frame2": "/framedbr/Frames/id-107--2.jpeg",
+        "imagem_frame3": "/framedbr/Frames/id-107--3.jpeg",
+        "imagem_frame4": "/framedbr/Frames/id-107--4.jpeg",
+        "imagem_frame5": "/framedbr/Frames/id-107--5.jpeg",
+        "imagem_frame6": "/framedbr/Frames/id-107--6.jpeg"
+      }
+    },
+    {
+      "filme_id": 108,
+      "titulo_ptbr": "Sinais",
+      "titulo_original": "Signs",
+      "diretor": "M. Night Shyamalan",
+      "genero": "Thriller, Ficção Científica, Terror",
+      "duracao_minutos": 106,
+      "ano_lancamento": 2002,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-108--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-108--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-108--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-108--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-108--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-108--6.jpg"
+      }
+    },
+    {
+      "filme_id": 109,
+      "titulo_ptbr": "Pantera Negra",
+      "titulo_original": "Black Panther",
+      "diretor": "Ryan Coogler",
+      "genero": "Ação, Ficção Científica",
+      "duracao_minutos": 135,
+      "ano_lancamento": 2018,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-109--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-109--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-109--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-109--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-109--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-109--6.jpg"
+      }
+    },
+    {
+      "filme_id": 110,
+      "titulo_ptbr": "O Hobbit: Uma Jornada Inesperada",
+      "titulo_original": "The Hobbit: An Unexpected Journey",
+      "diretor": "Peter Jackson",
+      "genero": "Fantasia, Aventura",
+      "duracao_minutos": 169,
+      "ano_lancamento": 2012,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-110--1.jpeg",
+        "imagem_frame2": "/framedbr/Frames/id-110--2.jpeg",
+        "imagem_frame3": "/framedbr/Frames/id-110--3.jpeg",
+        "imagem_frame4": "/framedbr/Frames/id-110--4.jpeg",
+        "imagem_frame5": "/framedbr/Frames/id-110--5.jpeg",
+        "imagem_frame6": "/framedbr/Frames/id-110--6.jpeg"
+      }
+    },
+    {
+      "filme_id": 111,
+      "titulo_ptbr": "Batman - O Início",
+      "titulo_original": "Batman Begins",
+      "diretor": "Christopher Nolan",
+      "genero": "Ação, Crime",
+      "duracao_minutos": 140,
+      "ano_lancamento": 2005,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-111--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-111--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-111--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-111--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-111--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-111--6.jpg"
+      }
+    },
+    {
+      "filme_id": 112,
+      "titulo_ptbr": "O Fabuloso Destino de Amélie Poulain",
+      "titulo_original": "Amelie",
+      "diretor": "Jean-Pierre Jeunet",
+      "genero": "Romance, Comédia",
+      "duracao_minutos": 122,
+      "ano_lancamento": 2001,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-112--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-112--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-112--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-112--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-112--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-112--6.jpg"
+      }
+    },
+    {
+      "filme_id": 113,
+      "titulo_ptbr": "Shrek",
+      "titulo_original": "Shrek",
+      "diretor": "Andrew Adamson, Vicky Jenson",
+      "genero": "Animação, Comédia, Fantasia",
+      "duracao_minutos": 89,
+      "ano_lancamento": 2001,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-113--1.jpeg",
+        "imagem_frame2": "/framedbr/Frames/id-113--2.jpeg",
+        "imagem_frame3": "/framedbr/Frames/id-113--3.jpeg",
+        "imagem_frame4": "/framedbr/Frames/id-113--4.jpeg",
+        "imagem_frame5": "/framedbr/Frames/id-113--5.jpeg",
+        "imagem_frame6": "/framedbr/Frames/id-113--6.jpeg"
+      }
+    },
+    {
+      "filme_id": 114,
+      "titulo_ptbr": "Um Completo Desconhecido",
+      "titulo_original": "A Complete Unknown",
+      "diretor": "James Mangold",
+      "genero": "Drama, Música",
+      "duracao_minutos": 140,
+      "ano_lancamento": 2024,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-114--1.jpeg",
+        "imagem_frame2": "/framedbr/Frames/id-114--2.jpeg",
+        "imagem_frame3": "/framedbr/Frames/id-114--3.jpeg",
+        "imagem_frame4": "/framedbr/Frames/id-114--4.jpeg",
+        "imagem_frame5": "/framedbr/Frames/id-114--5.jpeg",
+        "imagem_frame6": "/framedbr/Frames/id-114--6.jpeg"
+      }
+    },
+    {
+      "filme_id": 115,
+      "titulo_ptbr": "Bastardos Inglórios",
+      "titulo_original": "Inglorious Basterds",
+      "diretor": "Quentin Tarantino",
+      "genero": "Guerra, Ação",
+      "duracao_minutos": 153,
+      "ano_lancamento": 2009,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-115--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-115--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-115--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-115--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-115--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-115--6.jpg"
+      }
+    },
+    {
+      "filme_id": 116,
+      "titulo_ptbr": "Nosferatu",
+      "titulo_original": "Nosferatu",
+      "diretor": "Robert Eggers",
+      "genero": "Terror, Mistério",
+      "duracao_minutos": 132,
+      "ano_lancamento": 2024,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-116--1.jpeg",
+        "imagem_frame2": "/framedbr/Frames/id-116--2.jpeg",
+        "imagem_frame3": "/framedbr/Frames/id-116--3.jpeg",
+        "imagem_frame4": "/framedbr/Frames/id-116--4.jpeg",
+        "imagem_frame5": "/framedbr/Frames/id-116--5.jpeg",
+        "imagem_frame6": "/framedbr/Frames/id-116--6.jpeg"
+      }
+    },
+    {
+      "filme_id": 117,
+      "titulo_ptbr": "Eu, Robô",
+      "titulo_original": "I, Robot",
+      "diretor": "Alex Proyas",
+      "genero": "Ficção Científica, Ação",
+      "duracao_minutos": 115,
+      "ano_lancamento": 2004,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-117--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-117--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-117--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-117--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-117--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-117--6.jpg"
+      }
+    },
+    {
+      "filme_id": 118,
+      "titulo_ptbr": "Star Wars: Episódio VI - O Retorno de Jedi",
+      "titulo_original": "Star Wars: Episode VI - Return of the Jedi",
+      "diretor": "Richard Marquand",
+      "genero": "Ficção Científica, Fantasia",
+      "duracao_minutos": 134,
+      "ano_lancamento": 1983,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-118--1.jpeg",
+        "imagem_frame2": "/framedbr/Frames/id-118--2.jpeg",
+        "imagem_frame3": "/framedbr/Frames/id-118--3.jpeg",
+        "imagem_frame4": "/framedbr/Frames/id-118--4.jpeg",
+        "imagem_frame5": "/framedbr/Frames/id-118--5.jpeg",
+        "imagem_frame6": "/framedbr/Frames/id-118--6.jpeg"
+      }
+    },
+    {
+      "filme_id": 119,
+      "titulo_ptbr": "Onde os Fracos Não Têm Vez",
+      "titulo_original": "No Country For Old Men",
+      "diretor": "Ethan Coen, Joel Coen",
+      "genero": "Drama, Suspense",
+      "duracao_minutos": 122,
+      "ano_lancamento": 2007,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-119--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-119--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-119--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-119--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-119--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-119--6.jpg"
+      }
+    },
+    {
+      "filme_id": 120,
+      "titulo_ptbr": "Ainda Estou Aqui",
+      "titulo_original": "Ainda Estou Aqui",
+      "diretor": "Walter Salles",
+      "genero": "Drama",
+      "duracao_minutos": 135,
+      "ano_lancamento": 2024,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-120--1.jpeg",
+        "imagem_frame2": "/framedbr/Frames/id-120--2.jpeg",
+        "imagem_frame3": "/framedbr/Frames/id-120--3.jpeg",
+        "imagem_frame4": "/framedbr/Frames/id-120--4.jpeg",
+        "imagem_frame5": "/framedbr/Frames/id-120--5.jpeg",
+        "imagem_frame6": "/framedbr/Frames/id-120--6.jpeg"
+      }
+    },
+    {
+      "filme_id": 121,
+      "titulo_ptbr": "O Abutre",
+      "titulo_original": "Nightcrawler",
+      "diretor": "Dan Gilroy",
+      "genero": "Thriller, Drama",
+      "duracao_minutos": 117,
+      "ano_lancamento": 2014,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-121--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-121--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-121--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-121--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-121--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-121--6.jpg"
+      }
+    },
+    {
+      "filme_id": 122,
+      "titulo_ptbr": "Thor: Amor e Trovão",
+      "titulo_original": "Thor: Love and Thunder",
+      "diretor": "Taika Waititi",
+      "genero": "Ação, Aventura",
+      "duracao_minutos": 119,
+      "ano_lancamento": 2022,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-122--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-122--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-122--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-122--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-122--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-122--6.jpg"
+      }
+    },
+    {
+      "filme_id": 123,
+      "titulo_ptbr": "O Senhor dos Anéis: A Sociedade do Anel",
+      "titulo_original": "The Lord of the Rings: The Fellowship of the Ring",
+      "diretor": "Peter Jackson",
+      "genero": "Fantasia, Aventura",
+      "duracao_minutos": 178,
+      "ano_lancamento": 2001,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-123--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-123--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-123--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-123--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-123--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-123--6.jpg"
+      }
+    },
+    {
+      "filme_id": 124,
+      "titulo_ptbr": "Rango",
+      "titulo_original": "Rango",
+      "diretor": "Gore Verbinski",
+      "genero": "Faroeste, Infantil",
+      "duracao_minutos": 107,
+      "ano_lancamento": 2011,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-124--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-124--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-124--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-124--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-124--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-124--6.jpg"
+      }
+    },
+    {
+      "filme_id": 125,
+      "titulo_ptbr": "O Grande Hotel Budapeste",
+      "titulo_original": "The Grand Budapest Hotel",
+      "diretor": "Wes Anderson",
+      "genero": "Aventura, Comédia",
+      "duracao_minutos": 99,
+      "ano_lancamento": 2014,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-125--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-125--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-125--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-125--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-125--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-125--6.jpg"
+      }
+    },
+    {
+      "filme_id": 126,
+      "titulo_ptbr": "300",
+      "titulo_original": "300",
+      "diretor": "Zack Snyder",
+      "genero": "Ação, Guerra",
+      "duracao_minutos": 117,
+      "ano_lancamento": 2006,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-126--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-126--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-126--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-126--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-126--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-126--6.jpg"
+      }
+    },
+    {
+      "filme_id": 127,
+      "titulo_ptbr": "Coringa: Delírio a Dois",
+      "titulo_original": "Joker: Folie à Deux",
+      "diretor": "Todd Phillips",
+      "genero": "Musical, Crime",
+      "duracao_minutos": 138,
+      "ano_lancamento": 2024,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-76--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-76--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-76--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-76--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-76--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-76--6.jpg"
+      }
+    },
+    {
+      "filme_id": 128,
+      "titulo_ptbr": "De Volta para o Futuro 2",
+      "titulo_original": "Back to the Future II",
+      "diretor": "Robert Zemeckis",
+      "genero": "Ficção Científica, Aventura",
+      "duracao_minutos": 108,
+      "ano_lancamento": 1989,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-101--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-101--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-101--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-101--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-101--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-101--6.jpg"
+      }
+    },
+    {
+      "filme_id": 129,
+      "titulo_ptbr": "A Vida é Bela",
+      "titulo_original": "La vita è bella",
+      "diretor": "Roberto Benigni",
+      "genero": "Guerra",
+      "duracao_minutos": 116,
+      "ano_lancamento": 1997,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-127--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-127--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-127--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-127--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-127--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-127--6.jpg"
+      }
+    },
+    {
+      "filme_id": 130,
+      "titulo_ptbr": "Vingadores: Era de Ultron",
+      "titulo_original": "Avengers: Age of Ultron",
+      "diretor": "Joss Whedon",
+      "genero": "Ação, Ficção Científica",
+      "duracao_minutos": 141,
+      "ano_lancamento": 2015,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-130--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-130--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-130--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-130--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-130--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-130--6.jpg"
+      }
+    },
+    {
+      "filme_id": 131,
+      "titulo_ptbr": "Bird Box",
+      "titulo_original": "Bird Box",
+      "diretor": "Susanne Bier",
+      "genero": "Terror, Ficção Científica",
+      "duracao_minutos": 124,
+      "ano_lancamento": 2018,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-131--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-131--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-131--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-131--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-131--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-131--6.jpg"
+      }
+    },
+    {
+      "filme_id": 132,
+      "titulo_ptbr": "Mulher-Maravilha",
+      "titulo_original": "Wonder Woman",
+      "diretor": "Patty Jenkins",
+      "genero": "Ação, Aventura, Fantasia",
+      "duracao_minutos": 141,
+      "ano_lancamento": 2017,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-132--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-132--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-132--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-132--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-132--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-132--6.jpg"
+      }
+    },
+    {
+      "filme_id": 133,
+      "titulo_ptbr": "Piratas do Caribe: No Fim do Mundo",
+      "titulo_original": "Pirates of the Caribbean: At World's End",
+      "diretor": "Gore Verbinski",
+      "genero": "Aventura, Ação",
+      "duracao_minutos": 168,
+      "ano_lancamento": 2007,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-133--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-133--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-133--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-133--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-133--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-133--6.jpg"
+      }
+    },
+    {
+      "filme_id": 134,
+      "titulo_ptbr": "Detetive Pikachu",
+      "titulo_original": "Pokémon Detective Pikachu",
+      "diretor": "Rob Letterman",
+      "genero": "Fantasia, Infantil",
+      "duracao_minutos": 104,
+      "ano_lancamento": 2019,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-134--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-134--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-134--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-134--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-134--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-134--6.jpg"
+      }
+    },
+    {
+      "filme_id": 135,
+      "titulo_ptbr": "Pobres Criaturas",
+      "titulo_original": "Poor Things",
+      "diretor": "Yorgos Lanthimos",
+      "genero": "Fantasia, Ficção Científica",
+      "duracao_minutos": 141,
+      "ano_lancamento": 2023,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-135--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-135--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-135--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-135--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-135--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-135--6.jpg"
+      }
+    },
+    {
+      "filme_id": 136,
+      "titulo_ptbr": "007: Operação Skyfall",
+      "titulo_original": "Skyfall",
+      "diretor": "Sam Mendes",
+      "genero": "Ação, Thriller",
+      "duracao_minutos": 143,
+      "ano_lancamento": 2012,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-136--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-136--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-136--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-136--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-136--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-136--6.jpg"
+      }
+    },
+    {
+      "filme_id": 137,
+      "titulo_ptbr": "Homem-Formiga e a Vespa",
+      "titulo_original": "Ant-Man and the Wasp",
+      "diretor": "Peyton Reed",
+      "genero": "Ação, Aventura",
+      "duracao_minutos": 118,
+      "ano_lancamento": 2018,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-137--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-137--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-137--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-137--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-137--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-137--6.jpg"
+      }
+    },
+    {
+      "filme_id": 138,
+      "titulo_ptbr": "Infiltrado na Klan",
+      "titulo_original": "BlacKkKlansman",
+      "diretor": "Spike Lee",
+      "genero": "Crime, Comédia",
+      "duracao_minutos": 134,
+      "ano_lancamento": 2018,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-138--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-138--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-138--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-138--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-138--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-138--6.jpg"
+      }
+    },
+    {
+      "filme_id": 139,
+      "titulo_ptbr": "Viúva Negra",
+      "titulo_original": "Black Widow",
+      "diretor": "Cate Shortland",
+      "genero": "Ação, Ficção Científica",
+      "duracao_minutos": 133,
+      "ano_lancamento": 2021,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-139--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-139--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-139--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-139--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-139--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-139--6.jpg"
+      }
+    },
+    {
+      "filme_id": 140,
+      "titulo_ptbr": "Bumblebee",
+      "titulo_original": "Bumblebee",
+      "diretor": "Travis Knight",
+      "genero": "Ação, Ficção Científica",
+      "duracao_minutos": 114,
+      "ano_lancamento": 2018,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-140--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-140--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-140--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-140--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-140--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-140--6.jpg"
+      }
+    },
+    {
+      "filme_id": 141,
+      "titulo_ptbr": "Destacamento Blood",
+      "titulo_original": "Da 5 Blood",
+      "diretor": "Spike Lee",
+      "genero": "Guerra, Ação",
+      "duracao_minutos": 156,
+      "ano_lancamento": 2020,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-141--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-141--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-141--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-141--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-141--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-141--6.jpg"
+      }
+    },
+    {
+      "filme_id": 142,
+      "titulo_ptbr": "Capitã Marvel",
+      "titulo_original": "Captain Marvel",
+      "diretor": "Anna Boden, Ryan Fleck",
+      "genero": "Ação, Aventura",
+      "duracao_minutos": 124,
+      "ano_lancamento": 2019,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-142--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-142--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-142--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-142--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-142--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-142--6.jpg"
+      }
+    },
+    {
+      "filme_id": 143,
+      "titulo_ptbr": "Chappie",
+      "titulo_original": "Chappie",
+      "diretor": "Neil Blomkamp",
+      "genero": "Ação, Ficção Científica",
+      "duracao_minutos": 120,
+      "ano_lancamento": 2015,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-143--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-143--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-143--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-143--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-143--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-143--6.jpg"
+      }
+    },
+    {
+      "filme_id": 144,
+      "titulo_ptbr": "Ford vs Ferrari",
+      "titulo_original": "Ford V Ferrari",
+      "diretor": "James Mangold",
+      "genero": "Esporte, Ação",
+      "duracao_minutos": 152,
+      "ano_lancamento": 2019,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-144--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-144--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-144--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-144--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-144--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-144--6.jpg"
+      }
+    },
+    {
+      "filme_id": 145,
+      "titulo_ptbr": "Entrevista com o Vampiro",
+      "titulo_original": "Interview With The Vampire",
+      "diretor": "Neil Jordan",
+      "genero": "Terror, Fantasia",
+      "duracao_minutos": 123,
+      "ano_lancamento": 1994,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-145--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-145--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-145--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-145--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-145--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-145--6.jpg"
+      }
+    },
+    {
+      "filme_id": 146,
+      "titulo_ptbr": "La La Land",
+      "titulo_original": "La La Land",
+      "diretor": "Demien Chazelle",
+      "genero": "Musical, Romance",
+      "duracao_minutos": 128,
+      "ano_lancamento": 2016,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-146--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-146--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-146--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-146--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-146--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-146--6.jpg"
+      }
+    },
+    {
+      "filme_id": 147,
+      "titulo_ptbr": "O Rei Leão",
+      "titulo_original": "The Lion King",
+      "diretor": "Rob Minkoff, Roger Allers",
+      "genero": "Animação, Musical, Infantil",
+      "duracao_minutos": 89,
+      "ano_lancamento": 1994,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-147--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-147--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-147--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-147--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-147--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-147--6.jpg"
+      }
+    },
+    {
+      "filme_id": 148,
+      "titulo_ptbr": "Homem de Ferro 3",
+      "titulo_original": "Iron Man 3",
+      "diretor": "Shane Black",
+      "genero": "Ação, Ficção Científica",
+      "duracao_minutos": 130,
+      "ano_lancamento": 2013,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-148--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-148--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-148--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-148--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-148--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-148--6.jpg"
+      }
+    },
+    {
+      "filme_id": 149,
+      "titulo_ptbr": "It: A Coisa",
+      "titulo_original": "It",
+      "diretor": "Andy Muschietti",
+      "genero": "Terror, Mistério",
+      "duracao_minutos": 135,
+      "ano_lancamento": 2017,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-149--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-149--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-149--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-149--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-149--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-149--6.jpg"
+      }
+    },
+    {
+      "filme_id": 150,
+      "titulo_ptbr": "Ted Bundy: A Irresistível Face do Mal",
+      "titulo_original": "Extremely Wicked, Shockingly Evil and Vile",
+      "diretor": "Joe Berlinger",
+      "genero": "Crime, Thriller",
+      "duracao_minutos": 108,
+      "ano_lancamento": 2019,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-150--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-150--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-150--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-150--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-150--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-150--6.jpg"
+      }
+    },
+    {
+      "filme_id": 151,
+      "titulo_ptbr": "Os Suspeitos",
+      "titulo_original": "Prisioners",
+      "diretor": "Denis Villeneuve",
+      "genero": "Crime, Thriller",
+      "duracao_minutos": 153,
+      "ano_lancamento": 2013,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-151--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-151--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-151--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-151--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-151--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-151--6.jpg"
+      }
+    },
+    {
+      "filme_id": 152,
+      "titulo_ptbr": "Scarface",
+      "titulo_original": "Scarface",
+      "diretor": "Brian De Palma",
+      "genero": "Crime, Thriller",
+      "duracao_minutos": 165,
+      "ano_lancamento": 1983,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-152--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-152--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-152--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-152--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-152--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-152--6.jpg"
+      }
+    },
+    {
+      "filme_id": 153,
+      "titulo_ptbr": "Homem-Aranha 2",
+      "titulo_original": "Spider-Man 2",
+      "diretor": "Sam Raimi",
+      "genero": "Ação, Ficção Científica",
+      "duracao_minutos": 141,
+      "ano_lancamento": 2004,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-153--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-153--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-153--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-153--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-153--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-153--6.jpg"
+      }
+    },
+    {
+      "filme_id": 154,
+      "titulo_ptbr": "Tropas Estelares",
+      "titulo_original": "Starship Troopers",
+      "diretor": "Paul Verhoeven",
+      "genero": "Ação, Ficção Científica",
+      "duracao_minutos": 135,
+      "ano_lancamento": 1997,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-154--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-154--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-154--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-154--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-154--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-154--6.jpg"
+      }
+    },
+    {
+      "filme_id": 155,
+      "titulo_ptbr": "Tenet",
+      "titulo_original": "Tenet",
+      "diretor": "Christopher Nolan",
+      "genero": "Ação, Ficção Científica",
+      "duracao_minutos": 150,
+      "ano_lancamento": 2020,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-155--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-155--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-155--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-155--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-155--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-155--6.jpg"
+      }
+    },
+    {
+      "filme_id": 156,
+      "titulo_ptbr": "Duna",
+      "titulo_original": "Dune",
+      "diretor": "Denis Villeneuve",
+      "genero": "Ficção Científica, Aventura",
+      "duracao_minutos": 155,
+      "ano_lancamento": 2021,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-156--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-156--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-156--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-156--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-156--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-156--6.jpg"
+      }
+    },
+    {
+      "filme_id": 157,
+      "titulo_ptbr": "Quem Quer Ser um Milionário?",
+      "titulo_original": "Slumdog Millionaire",
+      "diretor": "Danny Boyle",
+      "genero": "Romance, Crime",
+      "duracao_minutos": 120,
+      "ano_lancamento": 2008,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-157--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-157--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-157--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-157--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-157--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-157--6.jpg"
+      }
+    },
+    {
+      "filme_id": 158,
+      "titulo_ptbr": "O Curioso Caso de Benjamin Button",
+      "titulo_original": "The Curious Case Of Benjamin Button",
+      "diretor": "David Fincher",
+      "genero": "Romance, Fantasia",
+      "duracao_minutos": 166,
+      "ano_lancamento": 2008,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-158--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-158--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-158--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-158--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-158--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-158--6.jpg"
+      }
+    },
+    {
+      "filme_id": 159,
+      "titulo_ptbr": "King Kong",
+      "titulo_original": "King Kong",
+      "diretor": "Peter Jackson",
+      "genero": "Aventura, Ação",
+      "duracao_minutos": 180,
+      "ano_lancamento": 2005,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-159--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-159--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-159--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-159--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-159--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-159--6.jpg"
+      }
+    },
+    {
+      "filme_id": 160,
+      "titulo_ptbr": "O Homem de Aço",
+      "titulo_original": "Man Of Steel",
+      "diretor": "Zack Snyder",
+      "genero": "Ação, Ficção Científica",
+      "duracao_minutos": 143,
+      "ano_lancamento": 2013,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-160--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-160--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-160--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-160--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-160--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-160--6.jpg"
+      }
     }
   ]
 }

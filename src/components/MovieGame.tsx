@@ -32,6 +32,7 @@ const MovieGame: React.FC<MovieGameProps> = ({
   const [displayFrame, setDisplayFrame] = useState<number>(1);
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
   const [currentImageIndex, setCurrentImageIndex] = useState<number>(0);
+  const [isProcessing, setIsProcessing] = useState<boolean>(false);
 
   const generateSuggestions = (input: string) => {
     if (input.length < 1) {
@@ -98,6 +99,10 @@ const MovieGame: React.FC<MovieGameProps> = ({
   ];
 
   const handleGuess = () => {
+    if (isProcessing) return; // Evitar duplo clique
+    
+    setIsProcessing(true);
+    
     const normalizedGuess = gameState.guess.toLowerCase().trim();
     const normalizedTitle = movie.titulo_ptbr.toLowerCase();
     const normalizedOriginal = movie.titulo_original.toLowerCase();
@@ -145,6 +150,9 @@ const MovieGame: React.FC<MovieGameProps> = ({
         setFeedback('❌ Tente novamente!');
       }
     }
+    
+    // Liberar o processamento após um pequeno delay
+    setTimeout(() => setIsProcessing(false), 300);
   };
 
   const resetGame = () => {
@@ -162,7 +170,14 @@ const MovieGame: React.FC<MovieGameProps> = ({
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter') {
-      handleGuess();
+      // Se há sugestões disponíveis, inserir a primeira
+      if (suggestions.length > 0) {
+        setGameState(prev => ({ ...prev, guess: suggestions[0] }));
+        setSuggestions([]);
+      } else {
+        // Se não há sugestões, fazer o chute
+        handleGuess();
+      }
     }
   };
 
