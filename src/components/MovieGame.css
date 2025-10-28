@@ -543,4 +543,25 @@
     top: 10px;
     right: 15px;
   }
+
 }
+
+.guessesContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.previousGuesses{
+  background-color: gray;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 20% 0 20%;
+}
+

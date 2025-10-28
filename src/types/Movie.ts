@@ -26,4 +26,5 @@ export interface GameState {
   isCorrect: boolean;
   showAllFrames: boolean;
   attempts: number;
+  guesses: string[];
 }
