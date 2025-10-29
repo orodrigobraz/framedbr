@@ -24,7 +24,8 @@ const MovieGame: React.FC<MovieGameProps> = ({
     guess: '',
     isCorrect: false,
     showAllFrames: false,
-    attempts: 0
+    attempts: 0,
+    guesses: []
   });
 
   const [feedback, setFeedback] = useState<string>('');
@@ -102,7 +103,8 @@ const MovieGame: React.FC<MovieGameProps> = ({
     if (isProcessing) return; // Evitar duplo clique
     
     setIsProcessing(true);
-    
+
+    const atualGuess = gameState.guess;
     const normalizedGuess = gameState.guess.toLowerCase().trim();
     const normalizedTitle = movie.titulo_ptbr.toLowerCase();
     const normalizedOriginal = movie.titulo_original.toLowerCase();
@@ -129,7 +131,8 @@ const MovieGame: React.FC<MovieGameProps> = ({
         ...prev,
         isCorrect: true,
         showAllFrames: true,
-        attempts: prev.attempts + 1
+        attempts: prev.attempts + 1,
+        guesses: [...prev.guesses, '✅ ' + atualGuess]
       }));
       setFeedback('🎉 Parabéns! Você acertou!');
     } else {
@@ -139,13 +142,17 @@ const MovieGame: React.FC<MovieGameProps> = ({
         return {
           ...prev,
           currentFrame: nextFrame,
-          attempts: prev.attempts + 1
+          attempts: prev.attempts + 1,
+          guesses: [...prev.guesses, '❌ ' + atualGuess]
         };
       });      
       
       if (gameState.currentFrame >= 6) {
         setFeedback(`❌ Que pena! O filme era: ${movie.titulo_ptbr}`);
-        setGameState(prev => ({ ...prev, showAllFrames: true }));
+        setGameState(prev => ({ ...prev, 
+                                showAllFrames: true,
+                                guesses: [...prev.guesses, '❌ ' + atualGuess]  
+                              }));
       } else {
         setFeedback('❌ Tente novamente!');
       }
@@ -155,13 +162,16 @@ const MovieGame: React.FC<MovieGameProps> = ({
     setTimeout(() => setIsProcessing(false), 300);
   };
 
+  useEffect(() => {console.log(gameState)}, [gameState])
+
   const resetGame = () => {
     setGameState({
       currentFrame: 1,
       guess: '',
       isCorrect: false,
       showAllFrames: false,
-      attempts: 0
+      attempts: 0,
+      guesses: []
     });
     setFeedback('');
     setSuggestions([]);
@@ -364,16 +374,33 @@ const MovieGame: React.FC<MovieGameProps> = ({
             disabled={isFirst}
             className="nav-button prev"
           >
-            ← Anterior
+            ←
           </button>
           <button
             onClick={onNext}
             disabled={isLast}
             className="nav-button next"
           >
-            Próximo →
+            →
           </button>
         </div>
+        {
+            gameState.guesses.length === 0 ? '' :
+            <div className="guessesContainer">
+              <h3>Tentativas Anteriores:</h3>
+              {gameState.guesses.map((x) => 
+              <div key={x} className="previousGuesses">
+                <p>
+                  {x.slice(0, 1)}
+                </p>
+                <p>
+                  {x.slice(2, x.length)}
+                </p>
+                <p></p>
+              </div>
+                )}
+            </div>
+        }
       </div>
 
       {/* MODAL DO CARROSSEL */}

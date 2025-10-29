@@ -1,7 +1,7 @@
 .movie-game {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: flex-start; 
   gap: 40px;
   width: 100%;
   max-width: 100%;
@@ -32,7 +32,7 @@
 .center-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 20px;
   flex-grow: 1;
 }
@@ -102,7 +102,8 @@
   flex: 0 0 30%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: center;
   gap: 20px;
   border-radius: 10px;
   padding: 25px;
@@ -166,10 +167,11 @@
 
 .guess-section {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   gap: 10px;
   width: 100%;
+  flex-shrink: 0;
 }
 
 .input-container {
@@ -288,8 +290,8 @@
 
 .navigation {
   display: flex;
-  justify-content: space-between;
-  gap: 20px;
+  justify-content: center;
+  gap: 280px;
   flex-shrink: 0;
   margin-top: auto;
 }
@@ -324,11 +326,11 @@
 }
 
 .nav-button.next {
-  background-color: #007bff;
+  background-color: #deae10;
 }
 
 .nav-button.next:hover:not(:disabled) {
-  background-color: #0056b3;
+  background-color: #a6a612;
 }
 
 @media (max-width: 768px) {
@@ -543,4 +545,23 @@
     top: 10px;
     right: 15px;
   }
+}
+
+.guessesContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.previousGuesses{
+  background-color: gray;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 20%;
 }
