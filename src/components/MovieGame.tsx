@@ -104,8 +104,9 @@ const MovieGame: React.FC<MovieGameProps> = ({
     
     setIsProcessing(true);
 
-    const atualGuess = gameState.guess;
-    const normalizedGuess = gameState.guess.toLowerCase().trim();
+    const rawGuess = gameState.guess.trim();
+    const displayGuess = rawGuess.length === 0 ? 'Passou' : gameState.guess;
+    const normalizedGuess = rawGuess.toLowerCase();
     const normalizedTitle = movie.titulo_ptbr.toLowerCase();
     const normalizedOriginal = movie.titulo_original.toLowerCase();
 
@@ -132,7 +133,7 @@ const MovieGame: React.FC<MovieGameProps> = ({
         isCorrect: true,
         showAllFrames: true,
         attempts: prev.attempts + 1,
-        guesses: [...prev.guesses, '✅ ' + atualGuess]
+        guesses: [...prev.guesses, '✅ ' + displayGuess]
       }));
       setFeedback('🎉 Parabéns! Você acertou!');
     } else {
@@ -143,15 +144,14 @@ const MovieGame: React.FC<MovieGameProps> = ({
           ...prev,
           currentFrame: nextFrame,
           attempts: prev.attempts + 1,
-          guesses: [...prev.guesses, '❌ ' + atualGuess]
+          guesses: [...prev.guesses, '❌ ' + displayGuess]
         };
       });      
       
       if (gameState.currentFrame >= 6) {
         setFeedback(`❌ Que pena! O filme era: ${movie.titulo_ptbr}`);
         setGameState(prev => ({ ...prev, 
-                                showAllFrames: true,
-                                guesses: [...prev.guesses, '❌ ' + atualGuess]  
+                                showAllFrames: true
                               }));
       } else {
         setFeedback('❌ Tente novamente!');
@@ -251,17 +251,17 @@ const MovieGame: React.FC<MovieGameProps> = ({
               alt={`Frame ${displayFrame}`}
               className="frame-image"
             />
-            <div className="frame-navigation">
-              {frames.map((_, index) =>
+            <div className="frame-navigation thumbs">
+              {frames.map((frameSrc, index) =>
                 index + 1 <= gameState.currentFrame ? (
                   <div
-                    key={index + 1}
-                    className={`frame-nav-item ${
-                      displayFrame === index + 1 ? "active" : ""
-                    }`}
+                    key={index}
+                    className={`frame-thumb ${displayFrame === index + 1 ? 'active' : ''}`}
                     onClick={() => setDisplayFrame(index + 1)}
+                    title={`Frame ${index + 1}`}
                   >
-                    {index + 1}
+                    <img src={frameSrc} alt={`Miniatura do frame ${index + 1}`} />
+                    <span className="thumb-number">{index + 1}</span>
                   </div>
                 ) : null
               )}
