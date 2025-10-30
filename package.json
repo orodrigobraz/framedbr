@@ -2,12 +2,13 @@
   "name": "framedbr",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://orodrigobraz.github.io/framedbr",
+  "homepage": "https://lucassnm.github.io/framedbr/",
   "dependencies": {
     "@types/node": "^16.18.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "@types/react-router-dom": "^5.3.3",
+    "axios": "^1.13.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^7.9.4",
@@ -42,6 +43,13 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
-  }
+    "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.16"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
