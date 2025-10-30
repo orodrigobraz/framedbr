@@ -1,15 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import { Movie, GameState } from '../types/Movie';
+import React, { useState, useEffect, useRef } from 'react';
+import { Movie, GameState, MovieGameProps, MovieCredits, castMember, crewMember } from '../types/Movie';
+import { fetchDataMovieCredits, fetchDataMovieSearch, fetchDataPeopleSearch, fetchDataPersonCredits } from "../services/api";
 import './MovieGame.css';
-
-interface MovieGameProps {
-  movie: Movie;
-  movies: Movie[];
-  onNext: () => void;
-  onPrevious: () => void;
-  isFirst: boolean;
-  isLast: boolean;
-}
 
 const MovieGame: React.FC<MovieGameProps> = ({ 
   movie, 
@@ -19,6 +11,7 @@ const MovieGame: React.FC<MovieGameProps> = ({
   isFirst, 
   isLast 
 }) => {
+
   const [gameState, setGameState] = useState<GameState>({
     currentFrame: 1,
     guess: '',
@@ -29,66 +22,15 @@ const MovieGame: React.FC<MovieGameProps> = ({
   });
 
   const [feedback, setFeedback] = useState<string>('');
-  const [suggestions, setSuggestions] = useState<string[]>([]);
+  const [suggestions, setSuggestions] = useState<{title: string, original_title: string, type: string, disabled: boolean}[]>([]);
   const [displayFrame, setDisplayFrame] = useState<number>(1);
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
   const [currentImageIndex, setCurrentImageIndex] = useState<number>(0);
   const [isProcessing, setIsProcessing] = useState<boolean>(false);
+  const [movieCredits, setMovieCredits] = useState<MovieCredits>({cast: [], crew: []});
+  const [castGuesses, setCastGuesses] = useState<{id: number, name: string, job: string, personCredits: {id: number, original_title: string, title: string}[]}[]>([]);
 
-  const generateSuggestions = (input: string) => {
-    if (input.length < 1) {
-      setSuggestions([]);
-      return;
-    }
-
-    const inputLower = input.toLowerCase();
-
-    // Criar lista de sugestões com informações completas
-    const suggestionsWithInfo = movies
-      .map((m: Movie) => ({
-        titulo: m.titulo_ptbr,
-        ano: m.ano_lancamento,
-        original: m.titulo_original
-      }))
-      .filter((movie) => 
-        movie.titulo.toLowerCase().includes(inputLower) ||
-        movie.original.toLowerCase().includes(inputLower)
-      );
-
-    // Agrupar por título para identificar duplicatas
-    const groupedByTitle = suggestionsWithInfo.reduce((acc, movie) => {
-      if (!acc[movie.titulo]) {
-        acc[movie.titulo] = [];
-      }
-      acc[movie.titulo].push(movie);
-      return acc;
-    }, {} as Record<string, typeof suggestionsWithInfo>);
-
-    // Criar lista final com anos para duplicatas
-    const finalSuggestions: string[] = [];
-    
-    Object.keys(groupedByTitle).forEach(titulo => {
-      const moviesWithSameTitle = groupedByTitle[titulo];
-      
-      if (moviesWithSameTitle.length === 1) {
-        // Título único, adicionar sem ano
-        finalSuggestions.push(titulo);
-      } else {
-        // Títulos duplicados, adicionar com ano
-        moviesWithSameTitle.forEach(movie => {
-          finalSuggestions.push(`${titulo} (${movie.ano})`);
-        });
-      }
-    });
-
-    // Ordenar alfabeticamente e limitar a 10
-    const sortedSuggestions = finalSuggestions
-      .sort((a, b) => a.localeCompare(b, 'pt-BR'))
-      .slice(0, 10);
-
-    setSuggestions(sortedSuggestions);
-  };
-  
+  const inputPesquisaRef = useRef(null);
 
   const frames = [
     movie.imagens.imagem_frame1,
@@ -105,7 +47,12 @@ const MovieGame: React.FC<MovieGameProps> = ({
     setIsProcessing(true);
     
     const atualGuess = gameState.guess;
-    const normalizedGuess = gameState.guess.toLowerCase().trim();
+    const normalizedGuess = gameState.guess.includes(' | ') ? 
+                              gameState.guess.toLowerCase().trim().split(' | ')[1] : 
+                              gameState.guess.toLowerCase().trim();
+    // const normalizedGuessType = gameState.guess.includes(' | ') ? 
+    //                             gameState.guess.toLowerCase().trim().split(' | ')[0] : 
+    //                             '';
     const normalizedTitle = movie.titulo_ptbr.toLowerCase();
     const normalizedOriginal = movie.titulo_original.toLowerCase();
 
@@ -121,10 +68,15 @@ const MovieGame: React.FC<MovieGameProps> = ({
       normalizedGuess === originalWithYear ||
       guessWithoutYear === normalizedTitle ||
       guessWithoutYear === normalizedOriginal;
-    
+
+    const isPartialGuess = 
+      movieCredits.cast.some((x) => x.name.toLowerCase() === normalizedGuess) ||// && x.job.toLowerCase() === normalizedGuessType) ||
+      movieCredits.crew.some((x) => x.name.toLowerCase() === normalizedGuess)// && x.job.toLowerCase() === normalizedGuessType);
+
     // Limpar o input após qualquer chute
     setGameState(prev => ({ ...prev, guess: '' }));
     setSuggestions([]);
+    let nextFrame = gameState.currentFrame + 1;
 
     if (isCorrectGuess) {
       setGameState(prev => ({
@@ -132,37 +84,112 @@ const MovieGame: React.FC<MovieGameProps> = ({
         isCorrect: true,
         showAllFrames: true,
         attempts: prev.attempts + 1,
-        guesses: [...prev.guesses, '✅ ' + atualGuess]
+        guesses: [...prev.guesses, {index: prev.attempts + 1, text: atualGuess, type: 'correct'}]
       }));
       setFeedback('🎉 Parabéns! Você acertou!');
-    } else {
-      setGameState(prev => {
-        const nextFrame = Math.min(prev.currentFrame + 1, 6);
+    } 
+    else if (isPartialGuess){
+      
+        
         setDisplayFrame(nextFrame);
-        return {
+
+        movieCredits.cast
+          .filter((x) => x.name.toLowerCase() == normalizedGuess) // && x.job.toLowerCase() === normalizedGuessType)
+          .map((x:any) => {
+            
+            fetchDataPersonCredits(x.id)
+            .then((res) => {
+              const personCredits: any[] = []
+              res.cast
+              .filter((x:any) => x.popularity >= 1)
+              .map((x:any) => {
+                personCredits.push({id: x.id, original_title: x.original_title, title: x.title})
+              })
+              setCastGuesses([...castGuesses, {id: x.id, name: x.name, job: x.job === '' ? 'Actor' : x.job, personCredits: personCredits}])
+            })
+            .catch((err) => console.error(err));
+            
+          });
+
+        movieCredits.crew
+          .filter((x) => x.name.toLowerCase() == normalizedGuess)// && x.job.toLowerCase() === normalizedGuessType)
+          .map((x:any) => {
+            fetchDataPersonCredits(x.id)
+            .then((res) => {
+              const personCredits: any[] = []
+              res.crew
+              .filter((x:any) => x.popularity >= 1)
+              .map((x:any) => {
+                personCredits.push({id: x.id, original_title: x.original_title, title: x.title})
+              })
+              setCastGuesses([...castGuesses, {id: x.id, name: x.name, job: x.job === '' ? 'Actor' : x.job, personCredits: personCredits}])
+            })
+            .catch((err) => console.error(err));
+
+          });
+
+        
+        const feedbackOptions = [
+            "🎯 Você está quase acertando!",
+            "🤏 Por pouco, continue tentando!",
+            "😅 Quase lá, falta pouco!",
+            "🫣 Está chegando perto!",
+            "🏹 Mira boa, só ajustar um pouco!"
+          ];
+
+        setFeedback(feedbackOptions[Math.floor(Math.random() * feedbackOptions.length)]);
+
+        setGameState(prev =>  ({
           ...prev,
           currentFrame: nextFrame,
           attempts: prev.attempts + 1,
-          guesses: [...prev.guesses, '❌ ' + atualGuess]
-        };
-      });      
-      
-      if (gameState.currentFrame >= 6) {
-        setFeedback(`❌ Que pena! O filme era: ${movie.titulo_ptbr}`);
-        setGameState(prev => ({ ...prev, 
-                                showAllFrames: true, 
-                                guesses: [...prev.guesses, '❌ ' + atualGuess] 
-                              }));
-      } else {
-        setFeedback('❌ Tente novamente!');
-      }
+          guesses: [...prev.guesses, {index: prev.attempts + 1, text: atualGuess, type: 'partial'}]
+        }));
+    }
+    else if (nextFrame <= 6) {
+      setFeedback('❌ Tente novamente!');
+  
+      // nextFrame = Math.min(gameState.currentFrame + 1, 6);
+      setDisplayFrame(nextFrame);
+      setGameState(prev => ({
+          ...prev,
+          currentFrame: nextFrame,
+          attempts: prev.attempts + 1,
+          guesses: [...prev.guesses, {index: prev.attempts + 1, text: atualGuess == '' ? 'Pulou' : atualGuess, type: 'incorrect'}]
+      }));
+    }
+    else {
+      setFeedback(`❌ Que pena! O filme era: ${movie.titulo_ptbr}`);
+      setGameState(prev => ({ ...prev, 
+                              showAllFrames: true, 
+                              guesses: [...prev.guesses, {index: prev.attempts + 1, text: atualGuess == '' ? 'Pulou' : atualGuess, type: 'incorrect'}] 
+                            }));
     }
 
     // Liberar o processamento após um pequeno delay
     setTimeout(() => setIsProcessing(false), 300);
   };
 
-  useEffect(() => {console.log(gameState)}, [gameState])
+  const commonMoviesBetweenCastGuesses = () => {
+    if(castGuesses.length > 0){
+      return castGuesses.reduce((creditosAcumulados, pessoaAtual) => {
+        // 1. Obtemos os créditos da pessoa atual.
+        const creditosAtuais = pessoaAtual.personCredits;
+        
+        // 2. Filtramos os créditos ACUMULADOS, mantendo apenas aqueles que
+        //    também existem nos créditos da pessoa ATUAL.
+        return creditosAcumulados.filter(creditoAcumulado => {
+          // Usamos 'some' para verificar a existência do crédito.
+          return creditosAtuais.some(creditoAtual => 
+            creditoAtual.id === creditoAcumulado.id
+          );
+        });
+
+        // O valor inicial (o 'initialValue' do reduce) são os créditos da primeira pessoa.
+      }, castGuesses[0].personCredits || []);
+
+    }
+  }
 
   const resetGame = () => {
     setGameState({
@@ -176,13 +203,90 @@ const MovieGame: React.FC<MovieGameProps> = ({
     setFeedback('');
     setSuggestions([]);
     setDisplayFrame(1);
+    setCastGuesses([]);
+    setMovieCredits({cast: [], crew: []})
+  };
+
+    useEffect(() => {
+      // Define o timer de 1000ms (1 segundos)
+      const timer = setTimeout(() => {
+      // Chama a função de busca após 1 segundos
+        if(gameState.guess.length > 0){
+          fetchMoviesSuggestions(gameState.guess);
+        }
+      }, 500);
+
+      // Função de limpeza (Cleanup Function)
+      // Esta função é executada ANTES que o próximo useEffect seja executado 
+      // ou quando o componente é desmontado.
+      return () => {
+        console.log('Limpando timer anterior...');
+        clearTimeout(timer);
+      };
+    }, [gameState.guess])
+
+    // Função que será chamada após o debounce
+  const fetchMoviesSuggestions = async (query: string) => {
+    // Evita a chamada se a query estiver vazia ou for muito curta
+    // if (!query.trim() || query.length < 2) {
+    //   setSuggestions([]);
+    //   setIsProcessing(false);
+    //   return;
+    // }
+
+    setIsProcessing(true);
+    setSuggestions([]); // Limpa resultados anteriores
+    
+    try {
+      let localSuggestions: {title: string, original_title: string, type: string, disabled: boolean}[] = []
+
+      // Usando o novo endpoint de proxy '/api' que configuramos anteriormente
+      await fetchDataPeopleSearch(query.toLowerCase().trim())
+        .then((res) => {
+          const results = res.results;
+          results
+              .filter((x: any) => x.popularity > 1)
+              .map((x: any) => {localSuggestions.push({title: x.name, original_title: x.original_name, type: x.known_for_department == 'Acting' ? 'Ator/Atriz' : x.known_for_department == 'Directing' ? 'Diretor(a)' : x.known_for_department, disabled: false})})
+        })
+        .catch((err) => console.error(err));
+    
+    const commonMovies = await commonMoviesBetweenCastGuesses();
+
+    if(commonMovies && commonMovies.length > 0){
+      commonMovies
+        .filter(x => x.title.toLowerCase().trim().includes(query.toLowerCase().trim()) || x.original_title.toLowerCase().trim().includes(query.toLowerCase().trim()))
+        .map((x: any) => {localSuggestions.push({title: x.title, original_title: x.original_title, type: 'Filme', disabled: false})})
+    }
+    else{ 
+      await fetchDataMovieSearch(query.toLowerCase().trim())
+        .then((res) => {
+          const results = res.results;
+          results
+            .filter((x: any) => x.popularity > 1)
+            .map((x: any) => {localSuggestions.push({title: x.title, original_title: x.original_title, type: 'Filme', disabled: false})})
+        })
+        .catch((err) => console.error(err));
+    }
+
+    if(localSuggestions.length == 0){
+      localSuggestions.push({title: 'Nenhuma sugestão encontrada', original_title: '', type: '', disabled: true})
+    }
+
+    setSuggestions( localSuggestions)
+
+    } catch (error) {
+      console.error('Erro ao buscar dados da API:', error);
+      // Aqui você pode adicionar lógica para mostrar uma mensagem de erro ao usuário
+    } finally {
+      setIsProcessing(false);
+    }
   };
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter') {
       // Se há sugestões disponíveis, inserir a primeira
       if (suggestions.length > 0) {
-        setGameState(prev => ({ ...prev, guess: suggestions[0] }));
+        setGameState(prev => ({ ...prev, guess: suggestions[0].title }));
         setSuggestions([]);
       } else {
         // Se não há sugestões, fazer o chute
@@ -198,7 +302,7 @@ const MovieGame: React.FC<MovieGameProps> = ({
 
   const closeModal = () => {
     setIsModalOpen(false);
-  };
+  };  
 
   const nextImage = () => {
     setCurrentImageIndex((prev) => (prev + 1) % frames.length);
@@ -227,6 +331,31 @@ const MovieGame: React.FC<MovieGameProps> = ({
       document.removeEventListener('keydown', handleKeyPress);
     };
   }, [isModalOpen]);
+
+  useEffect(() => {
+    let currentMovieID = 0
+
+    const carregaInfoFilme = async () => {
+
+      currentMovieID = await fetchDataMovieSearch(movie.titulo_original)
+        .then((res) => {return res.results.filter((x:any) => x.release_date.includes(movie.ano_lancamento))[0].id})
+        .catch((err) => console.error(err));
+        
+        if (currentMovieID > 0) {
+          await fetchDataMovieCredits(currentMovieID)
+          .then((res) => {
+            console.log(res)
+            let creditsCast: castMember[] = []
+            let creditsCrew: crewMember[] = []
+            res.cast.map((x: any) => creditsCast.push({ id: x.id, name: x.name, character: x.character, job: x.known_for_department }))
+            res.crew.map((x: any) => creditsCrew.push({ id: x.id, name: x.name, job: x.known_for_department }))
+            setMovieCredits({cast: creditsCast, crew: creditsCrew})
+          })
+          .catch((err) => console.error(err));
+      }
+    }
+    carregaInfoFilme()
+  }, [movie])
 
   return (
     <div className="movie-game">
@@ -289,27 +418,31 @@ const MovieGame: React.FC<MovieGameProps> = ({
                   onChange={(e) => {
                     const value = e.target.value;
                     setGameState((prev) => ({ ...prev, guess: value }));
-                    generateSuggestions(value);
+                    // generateSuggestions(value);
                   }}
                   onKeyPress={handleKeyPress}
-                  placeholder="Digite o nome do filme..."
+                  placeholder="Digite o nome do filme, diretor(a), ator, ..."
                   className="guess-input"
+                  ref={inputPesquisaRef}
                 />
-                {suggestions.length > 0 && (
+                {suggestions.length > 0 && document.activeElement === inputPesquisaRef.current && (
                   <div className="suggestions">
                     {suggestions.map((suggestion, index) => (
                       <div
                         key={index}
-                        className="suggestion-item"
+                        className={`${suggestion.disabled ? 'suggestion-item-disabled' : 'suggestion-item'}`}
                         onClick={() => {
-                          setGameState((prev) => ({
-                            ...prev,
-                            guess: suggestion,
-                          }));
-                          setSuggestions([]);
+                          if(!suggestion.disabled){
+                            setGameState((prev) => ({
+                              ...prev,
+                              guess: suggestion.title,
+                            }));
+
+                            setSuggestions([]);
+                          }
                         }}
                       >
-                        {suggestion}
+                        {suggestion.type} | {suggestion.title}
                       </div>
                     ))}
                   </div>
@@ -324,7 +457,7 @@ const MovieGame: React.FC<MovieGameProps> = ({
           <div className="feedback-container">
             {feedback && (
               <div
-                className={`feedback ${gameState.isCorrect ? "correct" : "incorrect"}`}
+                className={`feedback feedback-${gameState.guesses[gameState.guesses.length - 1].type}`}
               >
                 {feedback}
               </div>
@@ -367,7 +500,19 @@ const MovieGame: React.FC<MovieGameProps> = ({
           )}
         </div>
         
-
+        {/* TENTATIVAS ANTERIORES */
+            gameState.guesses.length === 0 ? '' :
+            <div className="guessesContainer">
+              <h3>Tentativas Anteriores:</h3>
+              {gameState.guesses.map((x) => 
+              <div key={x.index} className={`previousGuesses feedback-${x.type}`}>
+                <p>{x.type == 'correct' ? '✅ ' : x.type == 'partial' ? '🔄 ' : '❌ '}</p>
+                <p>{x.text}</p>
+                <p></p>
+              </div>
+                )}
+            </div>
+        }
 
         {/* NAVEGAÇÃO - NO FINAL */}
         <div className="navigation">
@@ -385,24 +530,10 @@ const MovieGame: React.FC<MovieGameProps> = ({
           >
             Próximo →
           </button>
+
+          {/* <button onClick={() => console.log(movieID)}>Teste</button> */}
         </div>
-        {
-            gameState.guesses.length === 0 ? '' :
-            <div className="guessesContainer">
-              <h3>Tentativas Anteriores:</h3>
-              {gameState.guesses.map((x) => 
-              <div key={x} className="previousGuesses">
-                <p>
-                  {x.slice(0, 1)}
-                </p>
-                <p>
-                  {x.slice(2, x.length)}
-                </p>
-                <p></p>
-              </div>
-                )}
-            </div>
-        }
+
       </div>
 
       {/* MODAL DO CARROSSEL */}

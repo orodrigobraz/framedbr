@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, useParams, useNavigate } from '
 import MovieGame from './components/MovieGame';
 import { Movie, MoviesData } from './types/Movie';
 import './App.css';
+import { fetchDataMovieSearch } from './services/api';
 
 const MoviePage: React.FC = () => {
   const { id } = useParams<{ id: string }>();

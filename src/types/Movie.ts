@@ -26,5 +26,33 @@ export interface GameState {
   isCorrect: boolean;
   showAllFrames: boolean;
   attempts: number;
-  guesses: string[];
+  guesses: {index: number, text: string, type: string}[];
+}
+
+
+export interface MovieGameProps {
+  movie: Movie;
+  movies: Movie[];
+  onNext: () => void;
+  onPrevious: () => void;
+  isFirst: boolean;
+  isLast: boolean;
+}
+
+export interface castMember{
+  id: number;
+  name: string;
+  character: string;
+  job: string;
+}
+
+export interface crewMember{
+  id: number;
+  name: string;
+  job: string;
+}
+
+export interface MovieCredits {
+  cast: castMember[];
+  crew: crewMember[];
 }
