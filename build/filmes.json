@@ -3841,6 +3841,57 @@
         "imagem_frame5": "/framedbr/Frames/id-226--5.jpg",
         "imagem_frame6": "/framedbr/Frames/id-226--6.jpg"
       }
+    },
+    {
+      "filme_id": 227,
+      "titulo_ptbr": "Birdman",
+      "titulo_original": "Birdman",
+      "diretor": "Alejandro González Iñárritu",
+      "genero": "Drama, Comédia",
+      "duracao_minutos": 120,
+      "ano_lancamento": 2014,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-227--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-227--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-227--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-227--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-227--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-227--6.jpg"
+      }
+    },
+    {
+      "filme_id": 228,
+      "titulo_ptbr": "Aladdin",
+      "titulo_original": "Aladdin",
+      "diretor": "Ron Clements, John Musker",
+      "genero": "Animação, Infantil",
+      "duracao_minutos": 90,
+      "ano_lancamento": 1992,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-228--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-228--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-228--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-228--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-228--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-228--6.jpg"
+      }
+    },
+    {
+      "filme_id": 229,
+      "titulo_ptbr": "Psicopata Americano",
+      "titulo_original": "American Psycho",
+      "diretor": "Mary Harron",
+      "genero": "Terror, Crime",
+      "duracao_minutos": 102,
+      "ano_lancamento": 2000,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-229--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-229--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-229--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-229--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-229--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-229--6.jpg"
+      }
     }
   ]
 }
