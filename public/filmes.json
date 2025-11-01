@@ -4606,6 +4606,1128 @@
         "imagem_frame5": "/framedbr/Frames/id-271--5.jpg",
         "imagem_frame6": "/framedbr/Frames/id-271--6.jpg"
       }
+    },
+    {
+      "filme_id": 272,
+      "titulo_ptbr": "Babilônia",
+      "titulo_original": "Babylon",
+      "diretor": "Damien Chazelle",
+      "genero": "Ação, Aventura",
+      "duracao_minutos": 189,
+      "ano_lancamento": 2022,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-272--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-272--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-272--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-272--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-272--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-272--6.jpg"
+      }
+    },
+    {
+      "filme_id": 273,
+      "titulo_ptbr": "De Volta para o Futuro III",
+      "titulo_original": "Back to the Future Part III",
+      "diretor": "Robert Zemeckis",
+      "genero": "Faroeste, Infantil",
+      "duracao_minutos": 118,
+      "ano_lancamento": 1990,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-273--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-273--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-273--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-273--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-273--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-273--6.jpg"
+      }
+    },
+    {
+      "filme_id": 274,
+      "titulo_ptbr": "Brilho Eterno de uma Mente Sem Lembranças",
+      "titulo_original": "Eternal Sunshine of The Spotless Mind",
+      "diretor": "Michael Gondry",
+      "genero": "Romance, Ficção Científica",
+      "duracao_minutos": 108,
+      "ano_lancamento": 2004,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-274--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-274--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-274--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-274--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-274--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-274--6.jpg"
+      }
+    },
+    {
+      "filme_id": 275,
+      "titulo_ptbr": "Star Wars: O Despertar da Força",
+      "titulo_original": "Star Wars: The Force Awakens",
+      "diretor": "J.J. Abrams",
+      "genero": "Ficção Científica, Ação",
+      "duracao_minutos": 136,
+      "ano_lancamento": 2015,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-275--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-275--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-275--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-275--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-275--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-275--6.jpg"
+      }
+    },
+    {
+      "filme_id": 276,
+      "titulo_ptbr": "Vai que Dá Certo",
+      "titulo_original": "Vai que Dá Certo",
+      "diretor": "Maurício Frias",
+      "genero": "Comédia",
+      "duracao_minutos": 110,
+      "ano_lancamento": 2013,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-276--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-276--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-276--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-276--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-276--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-276--6.jpg"
+      }
+    },
+    {
+      "filme_id": 277,
+      "titulo_ptbr": "Moonlight: Sob a Luz do Luar",
+      "titulo_original": "Moonlight",
+      "diretor": "Berry Jenkins",
+      "genero": "Drama",
+      "duracao_minutos": 111,
+      "ano_lancamento": 2016,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-277--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-277--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-277--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-277--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-277--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-277--6.jpg"
+      }
+    },
+    {
+      "filme_id": 278,
+      "titulo_ptbr": "Midsommar - O Mal Não Espera a Noite",
+      "titulo_original": "Midsommar",
+      "diretor": "Ari Aster",
+      "genero": "Terror, Mistério",
+      "duracao_minutos": 171,
+      "ano_lancamento": 2019,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-278--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-278--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-278--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-278--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-278--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-278--6.jpg"
+      }
+    },
+    {
+      "filme_id": 279,
+      "titulo_ptbr": "O Grande Lebowski",
+      "titulo_original": "The Big Lebowski",
+      "diretor": "Ethan Coen, Joel Coen",
+      "genero": "Comédia, Crime",
+      "duracao_minutos": 117,
+      "ano_lancamento": 1998,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-279--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-279--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-279--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-279--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-279--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-279--6.jpg"
+      }
+    },
+    {
+      "filme_id": 280,
+      "titulo_ptbr": "Entre Facas e Segredos",
+      "titulo_original": "Knives Out",
+      "diretor": "Rian Johnson",
+      "genero": "Mistério, Thriller",
+      "duracao_minutos": 130,
+      "ano_lancamento": 2019,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-280--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-280--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-280--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-280--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-280--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-280--6.jpg"
+      }
+    },
+    {
+      "filme_id": 281,
+      "titulo_ptbr": "A Crônica Francesa",
+      "titulo_original": "The French Dispatch",
+      "diretor": "Wes Anderson",
+      "genero": "Comédia, Romance",
+      "duracao_minutos": 107,
+      "ano_lancamento": 2021,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-281--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-281--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-281--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-281--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-281--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-281--6.jpg"
+      }
+    },
+    {
+      "filme_id": 282,
+      "titulo_ptbr": "Uma Babá Quase Perfeita",
+      "titulo_original": "Mrs. Doubtfire",
+      "diretor": "Chris Columbus",
+      "genero": "Comédia, Infantil",
+      "duracao_minutos": 126,
+      "ano_lancamento": 1993,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-282--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-282--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-282--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-282--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-282--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-282--6.jpg"
+      }
+    },
+    {
+      "filme_id": 283,
+      "titulo_ptbr": "Gremlins",
+      "titulo_original": "Gremlins",
+      "diretor": "Joe Dante",
+      "genero": "Terror, Comédia",
+      "duracao_minutos": 106,
+      "ano_lancamento": 1984,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-283--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-283--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-283--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-283--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-283--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-283--6.jpg"
+      }
+    },
+    {
+      "filme_id": 284,
+      "titulo_ptbr": "Uma Cilada Para Roger Rabbit",
+      "titulo_original": "Who Framed Roger Rabbit",
+      "diretor": "Robert Zemeckis",
+      "genero": "Comédia, Infantil",
+      "duracao_minutos": 104,
+      "ano_lancamento": 1988,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-284--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-284--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-284--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-284--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-284--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-284--6.jpg"
+      }
+    },
+    {
+      "filme_id": 285,
+      "titulo_ptbr": "Harry Potter e a Câmara Secreta",
+      "titulo_original": "Harry Potter and the Chamber of Secrets",
+      "diretor": "Chris Columbus",
+      "genero": "Fantasia, Infantil",
+      "duracao_minutos": 161,
+      "ano_lancamento": 2002,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-285--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-285--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-285--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-285--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-285--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-285--6.jpg"
+      }
+    },
+    {
+      "filme_id": 286,
+      "titulo_ptbr": "Coração Valente",
+      "titulo_original": "Braveheart",
+      "diretor": "Mel Gibson",
+      "genero": "Guerra, Ação",
+      "duracao_minutos": 178,
+      "ano_lancamento": 1995,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-286--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-286--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-286--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-286--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-286--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-286--6.jpg"
+      }
+    },
+    {
+      "filme_id": 287,
+      "titulo_ptbr": "A Vida Secreta de Walter Mitty",
+      "titulo_original": "The Secret Life of Walter Mitty",
+      "diretor": "Ben Stiller",
+      "genero": "Aventura, Comédia",
+      "duracao_minutos": 114,
+      "ano_lancamento": 2013,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-287--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-287--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-287--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-287--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-287--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-287--6.jpg"
+      }
+    },
+    {
+      "filme_id": 288,
+      "titulo_ptbr": "Magnatas do Crime",
+      "titulo_original": "The Gentlemen",
+      "diretor": "Guy Ritchie",
+      "genero": "Ação, Crime",
+      "duracao_minutos": 113,
+      "ano_lancamento": 2019,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-288--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-288--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-288--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-288--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-288--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-288--6.jpg"
+      }
+    },
+    {
+      "filme_id": 289,
+      "titulo_ptbr": "Nós",
+      "titulo_original": "Us",
+      "diretor": "Jordan Peele",
+      "genero": "Terror, Mistério",
+      "duracao_minutos": 121,
+      "ano_lancamento": 2019,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-289--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-289--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-289--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-289--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-289--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-289--6.jpg"
+      }
+    },
+    {
+      "filme_id": 290,
+      "titulo_ptbr": "Jamaica abaixo de Zero",
+      "titulo_original": "Cool Runnings",
+      "diretor": "Jon Turteltaub",
+      "genero": "Esporte, Comédia",
+      "duracao_minutos": 98,
+      "ano_lancamento": 1993,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-290--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-290--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-290--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-290--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-290--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-290--6.jpg"
+      }
+    },
+    {
+      "filme_id": 291,
+      "titulo_ptbr": "Eu Sou a Lenda",
+      "titulo_original": "I Am Legend",
+      "diretor": "Francis Lawrence",
+      "genero": "Terror, Ação",
+      "duracao_minutos": 101,
+      "ano_lancamento": 2007,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-291--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-291--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-291--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-291--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-291--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-291--6.jpg"
+      }
+    },
+    {
+      "filme_id": 292,
+      "titulo_ptbr": "007: Cassino Royale",
+      "titulo_original": "Casino Royale",
+      "diretor": "Martin Campbell",
+      "genero": "Ação, Thriller",
+      "duracao_minutos": 144,
+      "ano_lancamento": 2006,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-292--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-292--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-292--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-292--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-292--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-292--6.jpg"
+      }
+    },
+    {
+      "filme_id": 293,
+      "titulo_ptbr": "Escola de Rock",
+      "titulo_original": "School Of Rock",
+      "diretor": "Richard Linklater",
+      "genero": "Comédia",
+      "duracao_minutos": 108,
+      "ano_lancamento": 2003,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-293--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-293--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-293--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-293--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-293--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-293--6.jpg"
+      }
+    },
+    {
+      "filme_id": 294,
+      "titulo_ptbr": "Anaconda",
+      "titulo_original": "Anaconda",
+      "diretor": "Luis Llosa",
+      "genero": "Terror, Ação",
+      "duracao_minutos": 89,
+      "ano_lancamento": 1997,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-294--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-294--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-294--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-294--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-294--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-294--6.jpg"
+      }
+    },
+    {
+      "filme_id": 295,
+      "titulo_ptbr": "Jogos Mortais",
+      "titulo_original": "Saw",
+      "diretor": "James Wan",
+      "genero": "Terror, Crime",
+      "duracao_minutos": 103,
+      "ano_lancamento": 2004,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-295--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-295--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-295--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-295--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-295--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-295--6.jpg"
+      }
+    },
+    {
+      "filme_id": 296,
+      "titulo_ptbr": "Frozen",
+      "titulo_original": "Frozen",
+      "diretor": "Jennifer Lee, Chris Buck",
+      "genero": "Animação, Musical, Infantil",
+      "duracao_minutos": 102,
+      "ano_lancamento": 2013,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-296--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-296--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-296--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-296--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-296--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-296--6.jpg"
+      }
+    },
+    {
+      "filme_id": 297,
+      "titulo_ptbr": "O Espetacular Homem-Aranha",
+      "titulo_original": "The Amazing Spider-Man",
+      "diretor": "Mark Webb",
+      "genero": "Ação, Ficção Científica",
+      "duracao_minutos": 136,
+      "ano_lancamento": 2012,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-297--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-297--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-297--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-297--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-297--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-297--6.jpg"
+      }
+    },
+    {
+      "filme_id": 298,
+      "titulo_ptbr": "Anjos da Lei",
+      "titulo_original": "21 Jump Street",
+      "diretor": "Phill Lord, Chris Miller",
+      "genero": "Comédia, Ação",
+      "duracao_minutos": 109,
+      "ano_lancamento": 2012,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-298--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-298--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-298--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-298--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-298--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-298--6.jpg"
+      }
+    },
+    {
+      "filme_id": 299,
+      "titulo_ptbr": "Carros",
+      "titulo_original": "Cars",
+      "diretor": "John Lasseter",
+      "genero": "Animação, Infantil, Comédia",
+      "duracao_minutos": 117,
+      "ano_lancamento": 2006,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-299--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-299--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-299--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-299--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-299--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-299--6.jpg"
+      }
+    },
+    {
+      "filme_id": 300,
+      "titulo_ptbr": "Babe - O Porquinho Atrapalhado",
+      "titulo_original": "Babe",
+      "diretor": "Chris Noonan",
+      "genero": "Infantil, Comédia",
+      "duracao_minutos": 91,
+      "ano_lancamento": 1995,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-300--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-300--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-300--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-300--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-300--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-300--6.jpg"
+      }
+    },
+    {
+      "filme_id": 301,
+      "titulo_ptbr": "Harry Potter e o Cálice de Fogo",
+      "titulo_original": "Harry Potter and the Goblet of Fire",
+      "diretor": "Mike Newell",
+      "genero": "Infantil, Fantasia",
+      "duracao_minutos": 157,
+      "ano_lancamento": 2005,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-301--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-301--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-301--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-301--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-301--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-301--6.jpg"
+      }
+    },
+    {
+      "filme_id": 302,
+      "titulo_ptbr": "Top Gun: Ases Indomáveis",
+      "titulo_original": "Top Gun",
+      "diretor": "Tony Scott",
+      "genero": "Ação, Aventura",
+      "duracao_minutos": 110,
+      "ano_lancamento": 1986,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-302--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-302--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-302--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-302--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-302--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-302--6.jpg"
+      }
+    },
+    {
+      "filme_id": 303,
+      "titulo_ptbr": "Pequena Miss Sunshine",
+      "titulo_original": "Little Miss Sunshine",
+      "diretor": "Valerie Faris, Jonathan Dayton",
+      "genero": "Comédia, Drama",
+      "duracao_minutos": 101,
+      "ano_lancamento": 2006,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-303--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-303--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-303--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-303--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-303--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-303--6.jpg"
+      }
+    },
+    {
+      "filme_id": 304,
+      "titulo_ptbr": "Fome de Poder",
+      "titulo_original": "The Founder",
+      "diretor": "John Lee Hancock",
+      "genero": "Drama, Biografia",
+      "duracao_minutos": 115,
+      "ano_lancamento": 2016,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-304--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-304--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-304--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-304--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-304--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-304--6.jpg"
+      }
+    },
+    {
+      "filme_id": 305,
+      "titulo_ptbr": "Lawrence da Arábia",
+      "titulo_original": "Lawrence of Arabia",
+      "diretor": "David Lean",
+      "genero": "Guerra, Aventura",
+      "duracao_minutos": 216,
+      "ano_lancamento": 1962,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-305--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-305--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-305--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-305--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-305--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-305--6.jpg"
+      }
+    },
+    {
+      "filme_id": 306,
+      "titulo_ptbr": "Guerra Mundial Z",
+      "titulo_original": "World War Z",
+      "diretor": "Marc Forster",
+      "genero": "Terror, Ação",
+      "duracao_minutos": 116,
+      "ano_lancamento": 2013,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-306--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-306--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-306--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-306--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-306--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-306--6.jpg"
+      }
+    },
+    {
+      "filme_id": 307,
+      "titulo_ptbr": "Marte Ataca!",
+      "titulo_original": "Mars Attacks!",
+      "diretor": "Tim Burton",
+      "genero": "Comédia, Ficção Científica",
+      "duracao_minutos": 106,
+      "ano_lancamento": 1996,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-307--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-307--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-307--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-307--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-307--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-307--6.jpg"
+      }
+    },
+    {
+      "filme_id": 308,
+      "titulo_ptbr": "Desventuras em Série",
+      "titulo_original": "Lemony Snicket's A Series of Unfortunate Events",
+      "diretor": "Brad Silberling",
+      "genero": "Comédia, Aventura",
+      "duracao_minutos": 108,
+      "ano_lancamento": 2004,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-308--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-308--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-308--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-308--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-308--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-308--6.jpg"
+      }
+    },
+    {
+      "filme_id": 309,
+      "titulo_ptbr": "Johnny & June",
+      "titulo_original": "Walk the Line",
+      "diretor": "James Mangold",
+      "genero": "Romance, Musical",
+      "duracao_minutos": 136,
+      "ano_lancamento": 2005,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-309--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-309--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-309--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-309--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-309--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-309--6.jpg"
+      }
+    },
+    {
+      "filme_id": 310,
+      "titulo_ptbr": "Jogador Nº 1",
+      "titulo_original": "Ready Player One",
+      "diretor": "Steven Spielberg",
+      "genero": "Ação, Ficção Científica",
+      "duracao_minutos": 140,
+      "ano_lancamento": 2018,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-310--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-310--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-310--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-310--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-310--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-310--6.jpg"
+      }
+    },
+    {
+      "filme_id": 311,
+      "titulo_ptbr": "Assassin's Creed",
+      "titulo_original": "Assassin's Creed",
+      "diretor": "Justin Kurzel",
+      "genero": "Ação, Aventura",
+      "duracao_minutos": 115,
+      "ano_lancamento": 2016,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-311--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-311--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-311--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-311--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-311--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-311--6.jpg"
+      }
+    },
+    {
+      "filme_id": 312,
+      "titulo_ptbr": "Free Guy: Assumindo o Controle",
+      "titulo_original": "Free Guy",
+      "diretor": "Shawn Levy",
+      "genero": "Ação, Comédia",
+      "duracao_minutos": 115,
+      "ano_lancamento": 2021,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-312--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-312--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-312--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-312--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-312--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-312--6.jpg"
+      }
+    },
+    {
+      "filme_id": 313,
+      "titulo_ptbr": "Anna Karenina",
+      "titulo_original": "Anna Karenina",
+      "diretor": "Joe Wright",
+      "genero": "Romance, Drama",
+      "duracao_minutos": 130,
+      "ano_lancamento": 2012,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-313--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-313--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-313--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-313--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-313--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-313--6.jpg"
+      }
+    },
+    {
+      "filme_id": 314,
+      "titulo_ptbr": "Valente",
+      "titulo_original": "Brave",
+      "diretor": "Brenda Chapman, Mark Andrews",
+      "genero": "Animação, Infantil, Aventura",
+      "duracao_minutos": 93,
+      "ano_lancamento": 2012,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-314--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-314--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-314--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-314--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-314--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-314--6.jpg"
+      }
+    },
+    {
+      "filme_id": 315,
+      "titulo_ptbr": "O Último Samurai",
+      "titulo_original": "The Last Samurai",
+      "diretor": "Edward Zwick",
+      "genero": "Ação, Guerra",
+      "duracao_minutos": 154,
+      "ano_lancamento": 2003,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-315--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-315--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-315--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-315--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-315--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-315--6.jpg"
+      }
+    },
+    {
+      "filme_id": 316,
+      "titulo_ptbr": "Velozes & Furiosos 7",
+      "titulo_original": "Furious 7",
+      "diretor": "James Wan",
+      "genero": "Ação, Thriller",
+      "duracao_minutos": 140,
+      "ano_lancamento": 2015,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-316--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-316--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-316--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-316--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-316--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-316--6.jpg"
+      }
+    },
+    {
+      "filme_id": 317,
+      "titulo_ptbr": "Creed: Nascido para Lutar",
+      "titulo_original": "Creed",
+      "diretor": "Ryan Coogler",
+      "genero": "Esporte, Ação",
+      "duracao_minutos": 133,
+      "ano_lancamento": 2015,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-317--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-317--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-317--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-317--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-317--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-317--6.jpg"
+      }
+    },
+    {
+      "filme_id": 318,
+      "titulo_ptbr": "Um Príncipe em Nova York",
+      "titulo_original": "Coming to America",
+      "diretor": "John Landis",
+      "genero": "Comédia, Romance",
+      "duracao_minutos": 116,
+      "ano_lancamento": 1988,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-318--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-318--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-318--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-318--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-318--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-318--6.jpg"
+      }
+    },
+    {
+      "filme_id": 319,
+      "titulo_ptbr": "Shrek 2",
+      "titulo_original": "Shrek 2",
+      "diretor": "Andrew Adamson, Conrad Vernon, Kelly Asbury",
+      "genero": "Animação, Infantil, Comédia",
+      "duracao_minutos": 90,
+      "ano_lancamento": 2004,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-319--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-319--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-319--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-319--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-319--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-319--6.jpg"
+      }
+    },
+    {
+      "filme_id": 320,
+      "titulo_ptbr": "A Queda",
+      "titulo_original": "Fall",
+      "diretor": "Scott Mann",
+      "genero": "Thriller, Suspense",
+      "duracao_minutos": 107,
+      "ano_lancamento": 2022,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-320--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-320--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-320--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-320--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-320--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-320--6.jpg"
+      }
+    },
+    {
+      "filme_id": 321,
+      "titulo_ptbr": "Constantine",
+      "titulo_original": "Constantine",
+      "diretor": "Francis Lawrence",
+      "genero": "Terror, Ação",
+      "duracao_minutos": 121,
+      "ano_lancamento": 2005,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-321--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-321--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-321--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-321--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-321--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-321--6.jpg"
+      }
+    },
+    {
+      "filme_id": 322,
+      "titulo_ptbr": "O Contador",
+      "titulo_original": "The Accountant",
+      "diretor": "Gavin O'Connor",
+      "genero": "Ação, Thriller",
+      "duracao_minutos": 128,
+      "ano_lancamento": 2016,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-322--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-322--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-322--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-322--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-322--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-322--6.jpg"
+      }
+    },
+    {
+      "filme_id": 323,
+      "titulo_ptbr": "Air: A História por Trás do Logo",
+      "titulo_original": "Air",
+      "diretor": "Ben Affleck",
+      "genero": "Esporte, Drama",
+      "duracao_minutos": 112,
+      "ano_lancamento": 2023,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-323--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-323--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-323--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-323--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-323--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-323--6.jpg"
+      }
+    },
+    {
+      "filme_id": 324,
+      "titulo_ptbr": "Flash",
+      "titulo_original": "The Flash",
+      "diretor": "Andy Muschietti",
+      "genero": "Ação, Ficção Científica",
+      "duracao_minutos": 144,
+      "ano_lancamento": 2023,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-324--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-324--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-324--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-324--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-324--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-324--6.jpg"
+      }
+    },
+    {
+      "filme_id": 325,
+      "titulo_ptbr": "A Máscara do Zorro",
+      "titulo_original": "The Mask of Zorro",
+      "diretor": "Martin Campbell",
+      "genero": "Aventura, Ação",
+      "duracao_minutos": 137,
+      "ano_lancamento": 1998,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-325--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-325--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-325--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-325--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-325--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-325--6.jpg"
+      }
+    },
+    {
+      "filme_id": 326,
+      "titulo_ptbr": "A Fuga das Galinhas",
+      "titulo_original": "Chicken Run",
+      "diretor": "Nick Park, Peter Lord",
+      "genero": "Animação, Infantil, Comédia",
+      "duracao_minutos": 84,
+      "ano_lancamento": 2000,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-326--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-326--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-326--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-326--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-326--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-326--6.jpg"
+      }
+    },
+    {
+      "filme_id": 327,
+      "titulo_ptbr": "Não Olhe para Cima",
+      "titulo_original": "Don't Look Up",
+      "diretor": "Adam McKay",
+      "genero": "Comédia, Ficção Científica",
+      "duracao_minutos": 145,
+      "ano_lancamento": 2021,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-327--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-327--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-327--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-327--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-327--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-327--6.jpg"
+      }
+    },
+    {
+      "filme_id": 328,
+      "titulo_ptbr": "Sherlock Holmes",
+      "titulo_original": "Sherlock Holmes",
+      "diretor": "Guy Ritchie",
+      "genero": "Ação, Thriller",
+      "duracao_minutos": 128,
+      "ano_lancamento": 2009,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-328--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-328--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-328--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-328--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-328--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-328--6.jpg"
+      }
+    },
+    {
+      "filme_id": 329,
+      "titulo_ptbr": "Adão Negro",
+      "titulo_original": "Black Adam",
+      "diretor": "Jaume Collet-Serra",
+      "genero": "Ação, Fantasia",
+      "duracao_minutos": 125,
+      "ano_lancamento": 2022,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-329--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-329--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-329--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-329--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-329--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-329--6.jpg"
+      }
+    },
+    {
+      "filme_id": 330,
+      "titulo_ptbr": "Lendas do Crime",
+      "titulo_original": "Legends",
+      "diretor": "Brian Helgeland",
+      "genero": "Crime, Thriller",
+      "duracao_minutos": 132,
+      "ano_lancamento": 2015,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-330--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-330--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-330--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-330--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-330--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-330--6.jpg"
+      }
+    },
+    {
+      "filme_id": 331,
+      "titulo_ptbr": "Megamente",
+      "titulo_original": "Megamind",
+      "diretor": "Tom McGrath",
+      "genero": "Animação, Infantil, Comédia",
+      "duracao_minutos": 95,
+      "ano_lancamento": 2010,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-331--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-331--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-331--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-331--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-331--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-331--6.jpg"
+      }
+    },
+    {
+      "filme_id": 332,
+      "titulo_ptbr": "Onze Homens e um Segredo",
+      "titulo_original": "Ocean's Eleven",
+      "diretor": "Steven Soderbergh",
+      "genero": "Crime",
+      "duracao_minutos": 116,
+      "ano_lancamento": 2001,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-332--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-332--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-332--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-332--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-332--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-332--6.jpg"
+      }
+    },
+    {
+      "filme_id": 333,
+      "titulo_ptbr": "Okja",
+      "titulo_original": "Okja",
+      "diretor": "Bong Joon-Ho",
+      "genero": "Ação, Aventura",
+      "duracao_minutos": 120,
+      "ano_lancamento": 2017,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-333--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-333--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-333--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-333--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-333--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-333--6.jpg"
+      }
+    },
+    {
+      "filme_id": 334,
+      "titulo_ptbr": "O Professor Aloprado",
+      "titulo_original": "The Nutty Professor",
+      "diretor": "Tom Shadyac",
+      "genero": "Comédia, Ficção Científica",
+      "duracao_minutos": 95,
+      "ano_lancamento": 1996,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-334--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-334--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-334--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-334--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-334--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-334--6.jpg"
+      }
+    },
+    {
+      "filme_id": 335,
+      "titulo_ptbr": "Argylle: O Superespião",
+      "titulo_original": "Argylle",
+      "diretor": "Matthew Vaughn",
+      "genero": "Ação, Comédia",
+      "duracao_minutos": 139,
+      "ano_lancamento": 2024,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-335--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-335--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-335--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-335--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-335--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-335--6.jpg"
+      }
+    },
+    {
+      "filme_id": 336,
+      "titulo_ptbr": "Atividade Paranormal",
+      "titulo_original": "Paranormal Activity",
+      "diretor": "Oren Peli",
+      "genero": "Terror, Mistério",
+      "duracao_minutos": 86,
+      "ano_lancamento": 2007,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-336--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-336--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-336--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-336--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-336--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-336--6.jpg"
+      }
+    },
+    {
+      "filme_id": 337,
+      "titulo_ptbr": "Superbad",
+      "titulo_original": "Superbad",
+      "diretor": "Greg Mottola",
+      "genero": "Comédia",
+      "duracao_minutos": 119,
+      "ano_lancamento": 2007,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames/id-337--1.jpg",
+        "imagem_frame2": "/framedbr/Frames/id-337--2.jpg",
+        "imagem_frame3": "/framedbr/Frames/id-337--3.jpg",
+        "imagem_frame4": "/framedbr/Frames/id-337--4.jpg",
+        "imagem_frame5": "/framedbr/Frames/id-337--5.jpg",
+        "imagem_frame6": "/framedbr/Frames/id-337--6.jpg"
+      }
     }
   ]
 }
