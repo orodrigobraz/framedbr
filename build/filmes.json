@@ -6833,6 +6833,414 @@
         "imagem_frame5": "/framedbr/Frames3/id-402--5.jpg",
         "imagem_frame6": "/framedbr/Frames3/id-402--6.jpg"
       }
+    },
+    {
+      "filme_id": 403,
+      "titulo_ptbr": "Tim Maia",
+      "titulo_original": "Tim Maia",
+      "diretor": "Mauro Lima",
+      "genero": "Drama, Musical",
+      "duracao_minutos": 140,
+      "ano_lancamento": 2014,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames3/id-403--1.jpg",
+        "imagem_frame2": "/framedbr/Frames3/id-403--2.jpg",
+        "imagem_frame3": "/framedbr/Frames3/id-403--3.jpg",
+        "imagem_frame4": "/framedbr/Frames3/id-403--4.jpg",
+        "imagem_frame5": "/framedbr/Frames3/id-403--5.jpg",
+        "imagem_frame6": "/framedbr/Frames3/id-403--6.jpg"
+      }
+    },
+    {
+      "filme_id": 404,
+      "titulo_ptbr": "O Hobbit: A Desolação de Smaug",
+      "titulo_original": "The Hobbit: The Desolation of Smaug",
+      "diretor": "Peter Jackson",
+      "genero": "Aventura, Fantasia",
+      "duracao_minutos": 161,
+      "ano_lancamento": 2013,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames3/id-404--1.jpg",
+        "imagem_frame2": "/framedbr/Frames3/id-404--2.jpg",
+        "imagem_frame3": "/framedbr/Frames3/id-404--3.jpg",
+        "imagem_frame4": "/framedbr/Frames3/id-404--4.jpg",
+        "imagem_frame5": "/framedbr/Frames3/id-404--5.jpg",
+        "imagem_frame6": "/framedbr/Frames3/id-404--6.jpg"
+      }
+    },
+    {
+      "filme_id": 405,
+      "titulo_ptbr": "Jurassic World: Recomeço",
+      "titulo_original": "Jurassic World: Rebirth",
+      "diretor": "Gareth Edwards",
+      "genero": "Ação, Ficção Científica",
+      "duracao_minutos": 133,
+      "ano_lancamento": 2025,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames3/id-405--1.jpg",
+        "imagem_frame2": "/framedbr/Frames3/id-405--2.jpg",
+        "imagem_frame3": "/framedbr/Frames3/id-405--3.jpg",
+        "imagem_frame4": "/framedbr/Frames3/id-405--4.jpg",
+        "imagem_frame5": "/framedbr/Frames3/id-405--5.jpg",
+        "imagem_frame6": "/framedbr/Frames3/id-405--6.jpg"
+      }
+    },
+    {
+      "filme_id": 406,
+      "titulo_ptbr": "Homem com H",
+      "titulo_original": "Homem com H",
+      "diretor": "Esmir Filho",
+      "genero": "Drama, Biografia, Musical",
+      "duracao_minutos": 129,
+      "ano_lancamento": 2025,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames3/id-406--1.jpg",
+        "imagem_frame2": "/framedbr/Frames3/id-406--2.jpg",
+        "imagem_frame3": "/framedbr/Frames3/id-406--3.jpg",
+        "imagem_frame4": "/framedbr/Frames3/id-406--4.jpg",
+        "imagem_frame5": "/framedbr/Frames3/id-406--5.jpg",
+        "imagem_frame6": "/framedbr/Frames3/id-406--6.jpg"
+      }
+    },
+    {
+      "filme_id": 407,
+      "titulo_ptbr": "O Auto da Compadecida",
+      "titulo_original": "O Auto da Compadecida",
+      "diretor": "Guel Arraes",
+      "genero": "Comédia, Aventura",
+      "duracao_minutos": 104,
+      "ano_lancamento": 2000,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames3/id-407--1.jpg",
+        "imagem_frame2": "/framedbr/Frames3/id-407--2.jpg",
+        "imagem_frame3": "/framedbr/Frames3/id-407--3.jpg",
+        "imagem_frame4": "/framedbr/Frames3/id-407--4.jpg",
+        "imagem_frame5": "/framedbr/Frames3/id-407--5.jpg",
+        "imagem_frame6": "/framedbr/Frames3/id-407--6.jpg"
+      }
+    },
+    {
+      "filme_id": 408,
+      "titulo_ptbr": "Vigam à Lua",
+      "titulo_original": "Le Voyage dans la Lune",
+      "diretor": "Georges Méliès",
+      "genero": "Ficção Científica, Fantasia",
+      "duracao_minutos": 14,
+      "ano_lancamento": 1902,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames3/id-408--1.jpg",
+        "imagem_frame2": "/framedbr/Frames3/id-408--2.jpg",
+        "imagem_frame3": "/framedbr/Frames3/id-408--3.jpg",
+        "imagem_frame4": "/framedbr/Frames3/id-408--4.jpg",
+        "imagem_frame5": "/framedbr/Frames3/id-408--5.jpg",
+        "imagem_frame6": "/framedbr/Frames3/id-408--6.jpg"
+      }
+    },
+    {
+      "filme_id": 409,
+      "titulo_ptbr": "Thunderbolts*",
+      "titulo_original": "Thunderbolts*",
+      "diretor": "Jake Schreier",
+      "genero": "Ação, Ficção Científica",
+      "duracao_minutos": 126,
+      "ano_lancamento": 2025,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames3/id-409--1.jpg",
+        "imagem_frame2": "/framedbr/Frames3/id-409--2.jpg",
+        "imagem_frame3": "/framedbr/Frames3/id-409--3.jpg",
+        "imagem_frame4": "/framedbr/Frames3/id-409--4.jpg",
+        "imagem_frame5": "/framedbr/Frames3/id-409--5.jpg",
+        "imagem_frame6": "/framedbr/Frames3/id-409--6.jpg"
+      }
+    },
+    {
+      "filme_id": 410,
+      "titulo_ptbr": "Independence Day",
+      "titulo_original": "Independence Day",
+      "diretor": "Roland Emmerich",
+      "genero": "Ação, Ficção Científica",
+      "duracao_minutos": 145,
+      "ano_lancamento": 1996,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames3/id-410--1.jpg",
+        "imagem_frame2": "/framedbr/Frames3/id-410--2.jpg",
+        "imagem_frame3": "/framedbr/Frames3/id-410--3.jpg",
+        "imagem_frame4": "/framedbr/Frames3/id-410--4.jpg",
+        "imagem_frame5": "/framedbr/Frames3/id-410--5.jpg",
+        "imagem_frame6": "/framedbr/Frames3/id-410--6.jpg"
+      }
+    },
+    {
+      "filme_id": 411,
+      "titulo_ptbr": "X-Men: Primeira Classe",
+      "titulo_original": "X-Men: First Class",
+      "diretor": "Matthew Vaughn",
+      "genero": "Ação, Ficção Científica",
+      "duracao_minutos": 132,
+      "ano_lancamento": 2011,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames3/id-411--1.jpg",
+        "imagem_frame2": "/framedbr/Frames3/id-411--2.jpg",
+        "imagem_frame3": "/framedbr/Frames3/id-411--3.jpg",
+        "imagem_frame4": "/framedbr/Frames3/id-411--4.jpg",
+        "imagem_frame5": "/framedbr/Frames3/id-411--5.jpg",
+        "imagem_frame6": "/framedbr/Frames3/id-411--6.jpg"
+      }
+    },
+    {
+      "filme_id": 412,
+      "titulo_ptbr": "Flow",
+      "titulo_original": "Straume",
+      "diretor": "Gints Zilbalodis",
+      "genero": "Animação, Fantasia",
+      "duracao_minutos": 85,
+      "ano_lancamento": 2024,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames3/id-412--1.jpg",
+        "imagem_frame2": "/framedbr/Frames3/id-412--2.jpg",
+        "imagem_frame3": "/framedbr/Frames3/id-412--3.jpg",
+        "imagem_frame4": "/framedbr/Frames3/id-412--4.jpg",
+        "imagem_frame5": "/framedbr/Frames3/id-412--5.jpg",
+        "imagem_frame6": "/framedbr/Frames3/id-412--6.jpg"
+      }
+    },
+    {
+      "filme_id": 413,
+      "titulo_ptbr": "Madame Teia",
+      "titulo_original": "Madame Web",
+      "diretor": "S. J. Clarkson",
+      "genero": "Ação, Fantasia, Thriller",
+      "duracao_minutos": 116,
+      "ano_lancamento": 2024,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames3/id-413--1.jpg",
+        "imagem_frame2": "/framedbr/Frames3/id-413--2.jpg",
+        "imagem_frame3": "/framedbr/Frames3/id-413--3.jpg",
+        "imagem_frame4": "/framedbr/Frames3/id-413--4.jpg",
+        "imagem_frame5": "/framedbr/Frames3/id-413--5.jpg",
+        "imagem_frame6": "/framedbr/Frames3/id-413--6.jpg"
+      }
+    },
+    {
+      "filme_id": 414,
+      "titulo_ptbr": "Pulp Fiction: Tempo de Violência",
+      "titulo_original": "Pulp Fiction",
+      "diretor": "Quentin Tarantino",
+      "genero": "Crime, Thriller",
+      "duracao_minutos": 159,
+      "ano_lancamento": 1994,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames3/id-414--1.jpg",
+        "imagem_frame2": "/framedbr/Frames3/id-414--2.jpg",
+        "imagem_frame3": "/framedbr/Frames3/id-414--3.jpg",
+        "imagem_frame4": "/framedbr/Frames3/id-414--4.jpg",
+        "imagem_frame5": "/framedbr/Frames3/id-414--5.jpg",
+        "imagem_frame6": "/framedbr/Frames3/id-414--6.jpg"
+      }
+    },
+    {
+      "filme_id": 415,
+      "titulo_ptbr": "Os Batutinhas",
+      "titulo_original": "The Little Rascals",
+      "diretor": "Penelope Spheeris",
+      "genero": "Comédia, Infantil",
+      "duracao_minutos": 82,
+      "ano_lancamento": 1994,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames3/id-415--1.jpg",
+        "imagem_frame2": "/framedbr/Frames3/id-415--2.jpg",
+        "imagem_frame3": "/framedbr/Frames3/id-415--3.jpg",
+        "imagem_frame4": "/framedbr/Frames3/id-415--4.jpg",
+        "imagem_frame5": "/framedbr/Frames3/id-415--5.jpg",
+        "imagem_frame6": "/framedbr/Frames3/id-415--6.jpg"
+      }
+    },
+    {
+      "filme_id": 416,
+      "titulo_ptbr": "Velozes & Furiosos: Desafio em Tóquio",
+      "titulo_original": "The Fast and the Furious: Tokyo Drift",
+      "diretor": "Justin Lin",
+      "genero": "Ação, Crime",
+      "duracao_minutos": 104,
+      "ano_lancamento": 2006,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames3/id-416--1.jpg",
+        "imagem_frame2": "/framedbr/Frames3/id-416--2.jpg",
+        "imagem_frame3": "/framedbr/Frames3/id-416--3.jpg",
+        "imagem_frame4": "/framedbr/Frames3/id-416--4.jpg",
+        "imagem_frame5": "/framedbr/Frames3/id-416--5.jpg",
+        "imagem_frame6": "/framedbr/Frames3/id-416--6.jpg"
+      }
+    },
+    {
+      "filme_id": 417,
+      "titulo_ptbr": "Carandiru",
+      "titulo_original": "Carandiru",
+      "diretor": "Héctor Babenco",
+      "genero": "Crime, Drama",
+      "duracao_minutos": 145,
+      "ano_lancamento": 2003,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames3/id-417--1.jpg",
+        "imagem_frame2": "/framedbr/Frames3/id-417--2.jpg",
+        "imagem_frame3": "/framedbr/Frames3/id-417--3.jpg",
+        "imagem_frame4": "/framedbr/Frames3/id-417--4.jpg",
+        "imagem_frame5": "/framedbr/Frames3/id-417--5.jpg",
+        "imagem_frame6": "/framedbr/Frames3/id-417--6.jpg"
+      }
+    },
+    {
+      "filme_id": 418,
+      "titulo_ptbr": "Projeto X",
+      "titulo_original": "Project X",
+      "diretor": "Nima Nourizadeh",
+      "genero": "Comédia, Ficção",
+      "duracao_minutos": 88,
+      "ano_lancamento": 2012,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames3/id-418--1.jpg",
+        "imagem_frame2": "/framedbr/Frames3/id-418--2.jpg",
+        "imagem_frame3": "/framedbr/Frames3/id-418--3.jpg",
+        "imagem_frame4": "/framedbr/Frames3/id-418--4.jpg",
+        "imagem_frame5": "/framedbr/Frames3/id-418--5.jpg",
+        "imagem_frame6": "/framedbr/Frames3/id-418--6.jpg"
+      }
+    },
+    {
+      "filme_id": 419,
+      "titulo_ptbr": "MIB: Homens de Preto",
+      "titulo_original": "Men in Black",
+      "diretor": "Barry Sonnenfeld",
+      "genero": "Ficção Científica, Ação",
+      "duracao_minutos": 98,
+      "ano_lancamento": 1997,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames3/id-419--1.jpg",
+        "imagem_frame2": "/framedbr/Frames3/id-419--2.jpg",
+        "imagem_frame3": "/framedbr/Frames3/id-419--3.jpg",
+        "imagem_frame4": "/framedbr/Frames3/id-419--4.jpg",
+        "imagem_frame5": "/framedbr/Frames3/id-419--5.jpg",
+        "imagem_frame6": "/framedbr/Frames3/id-419--6.jpg"
+      }
+    },
+    {
+      "filme_id": 420,
+      "titulo_ptbr": "Dois Papas",
+      "titulo_original": "The Two Popes",
+      "diretor": "Fernando Meirelles",
+      "genero": "Drama, Biografia",
+      "duracao_minutos": 125,
+      "ano_lancamento": 2019,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames3/id-420--1.jpg",
+        "imagem_frame2": "/framedbr/Frames3/id-420--2.jpg",
+        "imagem_frame3": "/framedbr/Frames3/id-420--3.jpg",
+        "imagem_frame4": "/framedbr/Frames3/id-420--4.jpg",
+        "imagem_frame5": "/framedbr/Frames3/id-420--5.jpg",
+        "imagem_frame6": "/framedbr/Frames3/id-420--6.jpg"
+      }
+    },
+    {
+      "filme_id": 421,
+      "titulo_ptbr": "Porco Rosso",
+      "titulo_original": "Porco Rosso",
+      "diretor": "Hayao Miyazaki",
+      "genero": "Animação, Aventura, Fantasia",
+      "duracao_minutos": 89,
+      "ano_lancamento": 1992,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames3/id-421--1.jpg",
+        "imagem_frame2": "/framedbr/Frames3/id-421--2.jpg",
+        "imagem_frame3": "/framedbr/Frames3/id-421--3.jpg",
+        "imagem_frame4": "/framedbr/Frames3/id-421--4.jpg",
+        "imagem_frame5": "/framedbr/Frames3/id-421--5.jpg",
+        "imagem_frame6": "/framedbr/Frames3/id-421--6.jpg"
+      }
+    },
+    {
+      "filme_id": 422,
+      "titulo_ptbr": "Orgulho e Preconceito",
+      "titulo_original": "Pride & Prejudice",
+      "diretor": "Joe Wright",
+      "genero": "Romance, Drama",
+      "duracao_minutos": 128,
+      "ano_lancamento": 2005,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames3/id-422--1.jpg",
+        "imagem_frame2": "/framedbr/Frames3/id-422--2.jpg",
+        "imagem_frame3": "/framedbr/Frames3/id-422--3.jpg",
+        "imagem_frame4": "/framedbr/Frames3/id-422--4.jpg",
+        "imagem_frame5": "/framedbr/Frames3/id-422--5.jpg",
+        "imagem_frame6": "/framedbr/Frames3/id-422--6.jpg"
+      }
+    },
+    {
+      "filme_id": 423,
+      "titulo_ptbr": "Resident Evil: O Hóspede Maldito",
+      "titulo_original": "Resident Evil",
+      "diretor": "Paul W.S. Anderson",
+      "genero": "Ação, Terror, Ficção Científica",
+      "duracao_minutos": 100,
+      "ano_lancamento": 2002,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames3/id-423--1.jpg",
+        "imagem_frame2": "/framedbr/Frames3/id-423--2.jpg",
+        "imagem_frame3": "/framedbr/Frames3/id-423--3.jpg",
+        "imagem_frame4": "/framedbr/Frames3/id-423--4.jpg",
+        "imagem_frame5": "/framedbr/Frames3/id-423--5.jpg",
+        "imagem_frame6": "/framedbr/Frames3/id-423--6.jpg"
+      }
+    },
+    {
+      "filme_id": 424,
+      "titulo_ptbr": "O Show de Truman",
+      "titulo_original": "The Truman Show",
+      "diretor": "Peter Weir",
+      "genero": "Comédia, Drama, Ficção Científica",
+      "duracao_minutos": 103,
+      "ano_lancamento": 1998,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames3/id-424--1.jpg",
+        "imagem_frame2": "/framedbr/Frames3/id-424--2.jpg",
+        "imagem_frame3": "/framedbr/Frames3/id-424--3.jpg",
+        "imagem_frame4": "/framedbr/Frames3/id-424--4.jpg",
+        "imagem_frame5": "/framedbr/Frames3/id-424--5.jpg",
+        "imagem_frame6": "/framedbr/Frames3/id-424--6.jpg"
+      }
+    },
+    {
+      "filme_id": 425,
+      "titulo_ptbr": "Capitão América: Admirável Mundo Novo",
+      "titulo_original": "Captain America: Brave New World",
+      "diretor": "Julius Onah",
+      "genero": "Ação, Ficção Científica",
+      "duracao_minutos": 118,
+      "ano_lancamento": 2025,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames3/id-425--1.jpg",
+        "imagem_frame2": "/framedbr/Frames3/id-425--2.jpg",
+        "imagem_frame3": "/framedbr/Frames3/id-425--3.jpg",
+        "imagem_frame4": "/framedbr/Frames3/id-425--4.jpg",
+        "imagem_frame5": "/framedbr/Frames3/id-425--5.jpg",
+        "imagem_frame6": "/framedbr/Frames3/id-425--6.jpg"
+      }
+    },
+    {
+      "filme_id": 426,
+      "titulo_ptbr": "Besouro Azul",
+      "titulo_original": "Blue Beetle",
+      "diretor": "Angel Manuel Soto",
+      "genero": "Ação, Ficção Científica",
+      "duracao_minutos": 118,
+      "ano_lancamento": 2023,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames3/id-426--1.jpg",
+        "imagem_frame2": "/framedbr/Frames3/id-426--2.jpg",
+        "imagem_frame3": "/framedbr/Frames3/id-426--3.jpg",
+        "imagem_frame4": "/framedbr/Frames3/id-426--4.jpg",
+        "imagem_frame5": "/framedbr/Frames3/id-426--5.jpg",
+        "imagem_frame6": "/framedbr/Frames3/id-426--6.jpg"
+      }
     }
   ]
 }
