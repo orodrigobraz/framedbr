@@ -6816,6 +6816,23 @@
         "imagem_frame5": "/framedbr/Frames3/id-401--5.jpg",
         "imagem_frame6": "/framedbr/Frames3/id-401--6.jpg"
       }
+    },
+    {
+      "filme_id": 402,
+      "titulo_ptbr": "O Senhor das Armas",
+      "titulo_original": "Lord of War",
+      "diretor": "Andrew Niccol",
+      "genero": "Crime, Thriller",
+      "duracao_minutos": 123,
+      "ano_lancamento": 2005,
+      "imagens": {
+        "imagem_frame1": "/framedbr/Frames3/id-402--1.jpg",
+        "imagem_frame2": "/framedbr/Frames3/id-402--2.jpg",
+        "imagem_frame3": "/framedbr/Frames3/id-402--3.jpg",
+        "imagem_frame4": "/framedbr/Frames3/id-402--4.jpg",
+        "imagem_frame5": "/framedbr/Frames3/id-402--5.jpg",
+        "imagem_frame6": "/framedbr/Frames3/id-402--6.jpg"
+      }
     }
   ]
 }
