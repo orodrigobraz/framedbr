@@ -403,7 +403,7 @@ const MovieGame: React.FC<MovieGameProps> = ({
         }
       </div>
 
-      {/* MODAL DO CARROSSEL   */}
+      {/* MODAL DO CARROSSEL */}
       {isModalOpen && (
         <div className="modal-overlay" onClick={closeModal}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
